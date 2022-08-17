@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Ryan's Portfolio Website</title>
+      <link rel="stylesheet" href="styles.css">
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="btn">
+         <span class="fas fa-bars"></span>
+      </div>
+      <nav class="sidebar">
+         <div class="text">
+            Side Menu
+         </div>
+         <ul>
+            <li class="active"><a href="/index.html">Ryan Cho</a></li>
+            <li>
+               <a href="#" class="feat-btn">Illustrations
+               <span class="fas fa-caret-down first"></span>
+               </a>
+               <ul class="feat-show">
+                  <li><a href="/digital_illustrations.html">Digital Illustrations</a></li>
+                  <li><a href="/traditional_illustrations.html">Traditional Illustrations</a></li>
+               </ul>
+               <li class="active"><a href="/about_me.html">About me</a></li>
+            </li>
+            
+         </ul>
+      </nav>
+
+      <div id="content">
+         <div class="content-portfolio">
+            <div class="header">
+               Traditional Illustrations
+            </div>
+
+            <main class="grid">
+               <div>
+                  <img src="/img/traditional_illustrations/Anonymity - Size_ 15.5_16 - Materials_ Cloth and an apple.jpg" alt="Photo 2">
+               </div>
+               <div>
+                  <img src="/img/traditional_illustrations/Future - Size_ 12-4 - Material_ Stones.jpg">
+               </div>
+               <div>
+                  <img src="/img/traditional_illustrations/Colorful! - Size_15_17 - Materials_ Poster color.jpg" alt="Photo 2">
+               </div>
+               <div>
+                  <img src="/img/traditional_illustrations/Butterflies - Size_ 20_16 - Material_ Acrylic.jpg" alt="Photo 2">
+               </div>
+               <div>
+                  <img src="/img/traditional_illustrations/Bear - Size_ 13_5 - Material_ Clay.jpg" alt="Photo 2">
+               </div>
+               <div>
+                  <img src="/img/traditional_illustrations/Buzz - Size_ 18-12 - Materials_ Watercolor, acrylic.jpg" alt="Photo 2">
+               </div>
+               <div>
+                  <img src="/img/traditional_illustrations/Eragon - Size_ 12-36 - Material_ Acrylic.jpg" alt="Photo 2">
+               </div>
+               <div>
+                  <img src="/img/traditional_illustrations/Fish face - Size_ 20-16 - Material_ Acrylic wood.jpg">
+               </div>
+               <div>
+                  <img src="/img/traditional_illustrations/Disagreement - Size_ 20-16 - Material_ Acrylic, plaster.jpg" alt="Photo 2">
+               </div>
+               <div>
+               <img src="/img/traditional_illustrations/Feet -Size_ 14-17 - Material_ Pencil.jpg" alt="Photo 2">
+               </div>
+               <div>
+                  <img src="/img/traditional_illustrations/Harmony - Size_ 9_6.5 - Materials_ Plaster, fishhook.jpg">
+               </div>
+               <div>
+                  <img src="/img/traditional_illustrations/Individuality - Size_ 20-16 - Materials_ Acrylic, gloves, cotton.jpg">
+               </div>
+               <div>
+                  <img src="/img/traditional_illustrations/Knowledge - Size_ 10-20 - Materials_ Wire, book acrylic, box, wooden hand.jpg">
+               </div>
+               <div>
+                  <img src="/img/traditional_illustrations/Light bulbs - Size_ 18-12 - Materials_ Watercolor, Pencil.jpg">
+               </div>
+               <div>
+                  <img src="/img/traditional_illustrations/Nature -  Size_ 14-19  - Materials_ Poster color, pen,.jpg">
+               </div>
+               <div>
+                  <img src="/img/traditional_illustrations/NightLight - Size_ 20_16 - Materials_ Acrylic, cotton, lights.jpg">
+               </div>
+               <div>
+                  <img src="/img/traditional_illustrations/Politically - Size_ 20-16 - Materials_ Stained glass, Metal wire, newspaper, watercolor_.jpg">
+               </div>
+               <div>
+                  <img src="/img/traditional_illustrations/Portrait - Size_ 20-16 - Material_ Acrylic.jpg">
+               </div>
+               <div>
+                  <img src="/img/traditional_illustrations/Skeletons - Size_ 22-28 - Material_ Acrylic.jpg">
+               </div>
+               <div>
+                  <img src="/img/traditional_illustrations/Splinter piece - Size_ 20-16 - Material_ Wooden spoon, acrylic.jpg">
+               </div>
+         
+            </main>
+
+         </div>
+      </div>
+
+      <script>
+         const state = {
+            open: false
+         }
+
+         // Open menu
+         $('.btn').click(function(){
+           $(this).toggleClass("click");
+           $('.sidebar').toggleClass("show");
+            if (state.open == false){
+               state.open = true;
+               openNav();
+               console.log("Open");
+            } else {
+               state.open = false;
+               closeNav();
+               console.log("Close");
+            }
+           
+         });
+           $('.feat-btn').click(function(){
+             $('nav ul .feat-show').toggleClass("show");
+             $('nav ul .first').toggleClass("rotate");
+           });
+           $('.serv-btn').click(function(){
+             $('nav ul .serv-show').toggleClass("show1");
+             $('nav ul .second').toggleClass("rotate");
+           });
+           $('nav ul li').click(function(){
+             $(this).addClass("active").siblings().removeClass("active");
+           });
+
+         
+
+           function openNav() {
+               document.getElementById("content").style.marginLeft = "250px";
+               // document.getElementById("main").style.marginLeft = "250px";
+            }
+
+            function closeNav() {
+               document.getElementById("content").style.marginLeft = "0";
+               // document.getElementById("main").style.marginLeft = "250px";
+            }
+      </script>
+   </body>
+</html>
