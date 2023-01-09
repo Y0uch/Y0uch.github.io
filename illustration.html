@@ -8,26 +8,15 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
    </head>
    <body>
-      <div class="btn">
-         <span class="fas fa-bars"></span>
-      </div>
+
+      <!-- Side navbar -->
       <nav class="sidebar">
-         <div class="text">
-            Side Menu
+         <div class="text"><a href="/index.html">Youngjun Cho</a>
          </div>
          <ul>
-            <li class="active"><a href="/index.html">Ryan Cho</a></li>
-            <li>
-               <a href="#" class="feat-btn">Illustrations
-               <span class="fas fa-caret-down first"></span>
-               </a>
-               <ul class="feat-show">
-                  <li><a href="/illustration.html">Illustrations</a></li>
-                  <li><a href="/design.html">Designs</a></li>
-               </ul>
-               <li class="active"><a href="/about_me.html">About me</a></li>
-            </li>
-            
+            <li class="active"><a href="/illustration.html">Illustrations</a></li>
+            <li><a href="/design.html">Designs</a></li>
+            <li><a href="/about_me.html">About me</a></li>
          </ul>
       </nav>
 
@@ -36,6 +25,8 @@
             <div class="header">
                Illustrations
             </div>
+
+
 
             <main class="grid">
                <div>
@@ -71,52 +62,46 @@
          
             </main>
 
-         </div>
-      </div>
 
-      <script>
-         const state = {
-            open: false
-         }
 
-         // Open menu
-         $('.btn').click(function(){
-           $(this).toggleClass("click");
-           $('.sidebar').toggleClass("show");
-            if (state.open == false){
-               state.open = true;
-               openNav();
-               console.log("Open");
-            } else {
-               state.open = false;
-               closeNav();
-               console.log("Close");
-            }
-           
-         });
-           $('.feat-btn').click(function(){
-             $('nav ul .feat-show').toggleClass("show");
-             $('nav ul .first').toggleClass("rotate");
-           });
-           $('.serv-btn').click(function(){
-             $('nav ul .serv-show').toggleClass("show1");
-             $('nav ul .second').toggleClass("rotate");
-           });
-           $('nav ul li').click(function(){
-             $(this).addClass("active").siblings().removeClass("active");
-           });
 
+
+
+            <!-- <main class="grid">
+               <div>
+                  <img src="/img/illustration/Environment - Digital _.png" alt="Photo 2">
+               </div>
+               <div>
+                  <img src="/img/illustration/Buzz - Size_ 18-12 - Materials_ Watercolor, acrylic.jpg" alt="Photo 2">
+               </div>
+               <div>
+                  <img src="/img/illustration/Colorful! - Size_15_17 - Materials_ Poster color.jpg">
+               </div>
+               <div>
+                  <img src="/img/illustration/pracccc.png" alt="Photo 2">
+               </div>
+               <div>
+                  <img src="/img/illustration/Feet -Size_ 14-17 - Material_ Pencil.jpg" alt="Photo 2">
+               </div>
+               <div>
+                  <img src="/img/illustration/IMG_0048.JPG" alt="Photo 2">
+               </div>
+               <div>
+                  <img src="/img/illustration/Light bulbs - Size_ 18-12 - Materials_ Watercolor, Pencil.jpg" alt="Photo 2">
+               </div>
+               <div>
+                  <img src="/img/illustration/pracccc1.png">
+               </div>
+               <div>
+                  <img src="/img/illustration/Rest_-_size_74,_40_-_Material__pastels.jpg" alt="Photo 2">
+               </div>
+               <div>
+               <img src="/img/illustration/Skeletons - Size_ 22-28 - Material_ Acrylic.jpg" alt="Photo 2">
+               </div>
          
+            </main> -->
 
-           function openNav() {
-               document.getElementById("content").style.marginLeft = "250px";
-               // document.getElementById("main").style.marginLeft = "250px";
-            }
-
-            function closeNav() {
-               document.getElementById("content").style.marginLeft = "0";
-               // document.getElementById("main").style.marginLeft = "250px";
-            }
-      </script>
+         </div>
+      </div>         
    </body>
 </html>
