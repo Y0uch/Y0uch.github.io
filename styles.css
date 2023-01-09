@@ -121,6 +121,8 @@ nav ul ul li a:hover{
     /* padding: 100px; */
     padding-left: 275px;
     padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     display: inline-block;
   }
   .content-portfolio .header{
