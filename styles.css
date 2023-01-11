@@ -49,17 +49,16 @@ nav ul li a{
   color: black;
   text-decoration: none;
   font-size: 18px;
-  padding-left: 40px;
   font-weight: 500;
   display: block;
   width: 100%;
   border-left: 3px solid transparent;
 }
-nav ul li.active a{
+/* nav ul li.active a{
   color: black;
   background: white;
   border-left-color: grey;
-}
+} */
 nav ul li a:hover{
   background: grey;
 }
