@@ -12,7 +12,7 @@
   width: 250px;
   height: 100%;
   left: 0px;
-  background: #1b1b1b;
+  /* background: #1b1b1b; */
   transition: left 0.4s ease;
 }
 
@@ -96,6 +96,10 @@ nav ul ul li a:hover{
   position: absolute;
 }
 
+.sidebar .sidebar-title {
+  padding-top: 130px;
+}
+
 
 .content{
   position: absolute;
@@ -126,13 +130,14 @@ nav ul ul li a:hover{
     /* padding: 100px; */
     padding-left: 275px;
     padding-right: 25px;
+    padding-top: 25px;
     padding-bottom: 25px;
     display: inline-block;
   }
   .content-portfolio .header{
     font-size: 45px;
     font-weight: 600;
-    /* padding: 50px; */
+    padding: 50px;
   }
   .content p{
     font-size: 30px;
