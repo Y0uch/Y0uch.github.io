@@ -7,12 +7,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.btn span{
-  color: white;
-  font-size: 28px;
-  line-height: 45px;
-}
-
 .sidebar{
   position: fixed;
   width: 250px;
@@ -26,17 +20,20 @@
   color: white;
   font-size: 25px;
   font-weight: 600;
-  line-height: 65px;
+  line-height: 30px;
   text-align: center;
-  background: #1e1e1e;
+  background: white; /*Sidebar title background*/
   letter-spacing: 1px;
+  padding-bottom: 100px;
+  padding-right: 75px; /*Moves sidebar name to the left as padding-right increases*/
+  padding-top: 15px;
 }
 .sidebar .text a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 nav ul{
-  background: #1b1b1b;
+  background: white;
   height: 100%;
   width: 100%;
   list-style: none;
@@ -50,7 +47,7 @@ nav ul li:last-child{
 }
 nav ul li a{
   position: relative;
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 18px;
   padding-left: 40px;
@@ -60,12 +57,12 @@ nav ul li a{
   border-left: 3px solid transparent;
 }
 nav ul li.active a{
-  color: cyan;
-  background: #1e1e1e;
-  border-left-color: cyan;
+  color: black;
+  background: white;
+  border-left-color: grey;
 }
 nav ul li a:hover{
-  background: #1e1e1e;
+  background: grey;
 }
 nav ul ul{
   position: static;
@@ -87,8 +84,16 @@ nav ul li.active ul li a{
   border-left-color: transparent;
 }
 nav ul ul li a:hover{
-  color: cyan!important;
+  color: grey!important;
   background: #1e1e1e!important;
+}
+
+.sidebar .corner {
+  width: 175px;
+  height: 100px;
+  border-top: 12px solid black;
+  border-left: 12px solid black;
+  position: absolute;
 }
 
 
