@@ -14,7 +14,7 @@
   position: fixed;
   width: 250px;
   height: 100%;
-  padding-left: 5%; /*Sidebar padding*/
+  padding-left: 3%; /*Sidebar padding*/
   transition: left 0.4s ease;
 }
 
@@ -136,7 +136,7 @@ nav ul ul li a:hover{
   padding-right: 25px;
   padding-top: 25px;
   padding-bottom: 25px; */
-  padding-left: 25%;
+  padding-left: 23%;
   padding-right: 10%;
   display: inline-block;
 }
