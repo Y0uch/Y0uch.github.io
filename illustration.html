@@ -4,6 +4,7 @@
       <meta charset="utf-8">
       <title>Ryan's Portfolio Website</title>
       <link rel="stylesheet" href="styles.css">
+      <link href="/lightbox2-2.11.3/dist/css/lightbox.css" rel="stylesheet" />
       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
    </head>
@@ -25,21 +26,57 @@
 
       <div id="content">
          <div class="content-portfolio">
-            <div class="header">
-            </div>
+            <div class="header"></div>
 
          <div class="row">
             <!-- 1st column -->
             <div class="column">
-               <img src="/img/illustration/Environment - Digital _.png" alt="Photo 2">
-               <img src="/img/illustration/Buzz - Size_ 18-12 - Materials_ Watercolor, acrylic.jpg" alt="Photo 2">
-               <img src="/img/illustration/Colorful! - Size_15_17 - Materials_ Poster color.jpg" alt="Photo 2">
-               <img src="/img/illustration/Feet -Size_ 14-17 - Material_ Pencil.jpg" alt="Photo 2">
+               <div class="img-container">
+                  <a href="/img/illustration/Environment - Digital _.png" data-lightbox="image-1"><img src="/img/illustration/Environment - Digital _.png"></a>
+                  <div class="overlay">
+                     <div class="overlay-text"><h2>Deforestation</h2>Save planet plz thank you</div>
+                  </div>
+               </div>
+
+               <div class="img-container">
+                  <a href="/img/illustration/Buzz - Size_ 18-12 - Materials_ Watercolor, acrylic.jpg" data-lightbox="image-1"><img src="/img/illustration/Buzz - Size_ 18-12 - Materials_ Watercolor, acrylic.jpg"></a>
+                  <div class="overlay">
+                     <div class="overlay-text"><h1>Bee</h1>Bee goes bzzzzz....</div>
+                  </div>
+               </div>
+               
+               <div class="img-container">
+                  <a href="/img/illustration/Colorful! - Size_15_17 - Materials_ Poster color.jpg" data-lightbox="image-1"><img src="/img/illustration/Colorful! - Size_15_17 - Materials_ Poster color.jpg"></a>
+                  <div class="overlay">
+                     <div class="overlay-text">What do we find at the end of a rainbow? A "W"</div>
+                  </div>
+               </div>
+
+               <div class="img-container">
+                  <a href="/img/illustration/Feet -Size_ 14-17 - Material_ Pencil.jpg" data-lightbox="image-1"><img src="/img/illustration/Feet -Size_ 14-17 - Material_ Pencil.jpg"></a>
+                  <div class="overlay">
+                     <div class="overlay-text">Ryan has a foot fetish</div>
+                  </div>
+               </div>
+
+
             </div>
             <!-- 2nd column -->
             <div class="column">
-               <img src="/img/illustration/Light bulbs - Size_ 18-12 - Materials_ Watercolor, Pencil.jpg">
-               <img src="/img/illustration/Rest_-_size_74,_40_-_Material__pastels.jpg">
+               <div class="img-container">
+                  <a href="/img/illustration/Light bulbs - Size_ 18-12 - Materials_ Watercolor, Pencil.jpg" data-lightbox="image-1"><img src="/img/illustration/Light bulbs - Size_ 18-12 - Materials_ Watercolor, Pencil.jpg"></a>
+                  <div class="overlay">
+                     <div class="overlay-text">Lightbulb as bright as Tyler's future</div>
+                  </div>
+               </div>
+
+               <div class="img-container">
+                  <a href="/img/illustration/Rest_-_size_74,_40_-_Material__pastels.jpg" data-lightbox="image-1"><img src="/img/illustration/Rest_-_size_74,_40_-_Material__pastels.jpg"></a>
+                  <div class="overlay">
+                     <div class="overlay-text">Who's Candice?</div>
+                  </div>
+               </div>
+
                <img src="">
                <img src="">
                <img src="">
@@ -50,8 +87,19 @@
 
             <!-- 3rd column -->
             <div class="column">
-               <img src="/img/illustration/pracccc.png">
-               <img src="/img/illustration/Skeletons - Size_ 22-28 - Material_ Acrylic.jpg">
+               <div class="img-container">
+                  <a href="/img/illustration/pracccc.png" data-lightbox="image-1"><img src="/img/illustration/pracccc.png"></a>
+                  <div class="overlay">
+                     <div class="overlay-text">Staring at the lightbulb</div>
+                  </div>
+               </div>
+
+               <div class="img-container">
+                  <a href="/img/illustration/Skeletons - Size_ 22-28 - Material_ Acrylic.jpg" data-lightbox="image-1"><img src="/img/illustration/Skeletons - Size_ 22-28 - Material_ Acrylic.jpg"></a>
+                  <div class="overlay">
+                     <div class="overlay-text">Me after working as an unpaid intern for Ryan</div>
+                  </div>
+               </div>
                <img src="">
                <img src="">
                <img src="">
@@ -61,8 +109,21 @@
             </div>
             <!-- 4th column -->
             <div class="column">
-               <img src="/img/illustration/pracccc1.png">
-               <img src="/img/illustration/IMG_0048.JPG">
+               <!-- s -->
+               <div class="img-container">
+                  <a href="/img/illustration/pracccc1.png" data-lightbox="image-1"><img src="/img/illustration/pracccc1.png"></a>
+                  <div class="overlay">
+                     <div class="overlay-text">Staring at your soul</div>
+                  </div>
+               </div>
+
+               <div class="img-container">
+                  <a href="/img/illustration/IMG_0048.JPG" data-lightbox="image-1"><img src="/img/illustration/IMG_0048.JPG"></a>
+                  <div class="overlay">
+                     <div class="overlay-text">Trick or treat </div>
+                  </div>
+               </div>
+
                <img src="">
                <img src="">
                <img src="">
@@ -71,81 +132,11 @@
                <img src="">
             </div>
          </div>
-
-            <!-- <main class="grid">
-               <div>
-                  <img src="/img/illustration/Environment - Digital _.png" alt="Photo 2">
-               </div>
-               <div>
-                  <img src="/img/illustration/Buzz - Size_ 18-12 - Materials_ Watercolor, acrylic.jpg" alt="Photo 2">
-               </div>
-               <div>
-                  <img src="/img/illustration/Colorful! - Size_15_17 - Materials_ Poster color.jpg">
-               </div>
-               <div>
-                  <img src="/img/illustration/pracccc.png" alt="Photo 2">
-               </div>
-               <div>
-                  <img src="/img/illustration/Feet -Size_ 14-17 - Material_ Pencil.jpg" alt="Photo 2">
-               </div>
-               <div>
-                  <img src="/img/illustration/IMG_0048.JPG" alt="Photo 2">
-               </div>
-               <div>
-                  <img src="/img/illustration/Light bulbs - Size_ 18-12 - Materials_ Watercolor, Pencil.jpg" alt="Photo 2">
-               </div>
-               <div>
-                  <img src="/img/illustration/pracccc1.png">
-               </div>
-               <div>
-                  <img src="/img/illustration/Rest_-_size_74,_40_-_Material__pastels.jpg" alt="Photo 2">
-               </div>
-               <div>
-               <img src="/img/illustration/Skeletons - Size_ 22-28 - Material_ Acrylic.jpg" alt="Photo 2">
-               </div> -->
          
             </main>
 
-
-
-
-
-
-            <!-- <main class="grid">
-               <div>
-                  <img src="/img/illustration/Environment - Digital _.png" alt="Photo 2">
-               </div>
-               <div>
-                  <img src="/img/illustration/Buzz - Size_ 18-12 - Materials_ Watercolor, acrylic.jpg" alt="Photo 2">
-               </div>
-               <div>
-                  <img src="/img/illustration/Colorful! - Size_15_17 - Materials_ Poster color.jpg">
-               </div>
-               <div>
-                  <img src="/img/illustration/pracccc.png" alt="Photo 2">
-               </div>
-               <div>
-                  <img src="/img/illustration/Feet -Size_ 14-17 - Material_ Pencil.jpg" alt="Photo 2">
-               </div>
-               <div>
-                  <img src="/img/illustration/IMG_0048.JPG" alt="Photo 2">
-               </div>
-               <div>
-                  <img src="/img/illustration/Light bulbs - Size_ 18-12 - Materials_ Watercolor, Pencil.jpg" alt="Photo 2">
-               </div>
-               <div>
-                  <img src="/img/illustration/pracccc1.png">
-               </div>
-               <div>
-                  <img src="/img/illustration/Rest_-_size_74,_40_-_Material__pastels.jpg" alt="Photo 2">
-               </div>
-               <div>
-               <img src="/img/illustration/Skeletons - Size_ 22-28 - Material_ Acrylic.jpg" alt="Photo 2">
-               </div>
-         
-            </main> -->
-
          </div>
-      </div>         
+      </div>
+      <script src="/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js"></script>         
    </body>
 </html>

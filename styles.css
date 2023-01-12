@@ -2,17 +2,19 @@
 *{
   margin: 0;
   padding: 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
   user-select: none;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
+/* Overall sidebar */
 .sidebar{
   position: fixed;
   width: 250px;
   height: 100%;
-  padding-left: 60px;
-  /* background: #1b1b1b; */
+  padding-left: 5%; /*Sidebar padding*/
   transition: left 0.4s ease;
 }
 
@@ -31,12 +33,16 @@
   text-decoration: none;
   color: black;
 }
+
+
+/* Sidebar Menu elements */
 nav ul{
   background: white;
   height: 100%;
   width: 100%;
   list-style: none;
 }
+
 nav ul li{
   line-height: 60px;
   border-top: 1px solid rgba(255,255,255,0.1);
@@ -74,7 +80,7 @@ nav ul ul li{
 nav ul ul li a{
   font-size: 17px;
   color: #e6e6e6;
-  padding-left: 80px;
+  /* padding-left: 80px; */
 }
 nav ul li.active ul li a{
   color: #e6e6e6;
@@ -95,7 +101,7 @@ nav ul ul li a:hover{
 }
 
 .sidebar .sidebar-title {
-  padding-top: 133px;
+  padding-top: 20% ; /* Sidebar title (name and corner) */ 
 }
 
 
@@ -118,34 +124,37 @@ nav ul ul li a:hover{
 }
 
 
-
+/* Grid and everything else */
 .content-portfolio{
-    position: absolute;
-    justify-content: center;
-    color: #202020;
-    z-index: -1; /* For hamburger menu button*/
-    text-align: center;
-    /* padding: 100px; */
-    padding-left: 275px;
-    padding-right: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    display: inline-block;
-  }
-  .content-portfolio .header{
-    font-size: 45px;
-    font-weight: 600;
-    padding: 50px;
-  }
-  .content p{
-    font-size: 30px;
-    font-weight: 500;
-  }
+  position: absolute;
+  justify-content: center;
+  color: #202020;
+  z-index: -1; /* For hamburger menu button*/
+  text-align: center;
+  /* padding: 100px; */
+  /* padding-left: 275px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px; */
+  padding-left: 25%;
+  padding-right: 20%;
+  display: inline-block;
+}
+
+.content-portfolio .header{
+  font-size: 45px;
+  font-weight: 600;
+  /* padding: 50px; */ /* Padding for images (moving up or down) */
+}
+.content p{
+  font-size: 30px;
+  font-weight: 500;
+}
 
 
 
 
-
+/* Grid */
 .content-portfolio .grid { 
     display: grid;
     position: relative;
@@ -158,22 +167,58 @@ nav ul ul li a:hover{
     border: 1px solid #ccc;
     box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
     max-width: 100%;
-  }
+}
 
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
+/* Specific image  */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
-  .column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-  }
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
   
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+/* Hover img elements */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+  pointer-events: none;
+}
+
+.img-container {
+  position: relative;
+}
+.img-container:hover .overlay {
+  opacity: 0.6;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
