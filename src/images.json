@@ -1,0 +1,171 @@
+{
+
+    "design-images":[
+        {
+            "name": "4Bv2 page assignment2.png",
+            "description": "testDescription",
+            "file_name": "4Bv2 page assignment2.png",
+            "show_on_carousel": true,
+            "column": 1
+        },
+        {
+            "name": "Artboard 1.png",
+            "description": "testDescription",
+            "file_name": "Artboard 1.png",
+            "show_on_carousel": true,
+            "column": 1
+        },
+        {
+            "name": "Assignment W11 All Typography in Ad copy-3.png",
+            "description": "testDescription",
+            "file_name": "Assignment W11 All Typography in Ad copy-3.png",
+            "show_on_carousel": false,
+            "column": 1
+        },
+        {
+            "name": "Assignment W11 All Typography in Ad copy.png",
+            "description": "testDescription",
+            "file_name": "Assignment W11 All Typography in Ad copy.png",
+            "show_on_carousel": false,
+            "column": 1
+        },
+        {
+            "name": "don inforgraphic V10 copy-1.png",
+            "description": "testDescription",
+            "file_name": "don inforgraphic V10 copy-1.png",
+            "show_on_carousel": true,
+            "column": 1
+        },
+        {
+            "name": "imagedonjazz copy 7.png",
+            "description": "testDescription",
+            "file_name": "imagedonjazz copy 7.png",
+            "show_on_carousel": false,
+            "column": 1
+        },
+        {
+            "name": "imagedonjazz.png",
+            "description": "testDescription",
+            "file_name": "imagedonjazz.png",
+            "show_on_carousel": false,
+            "column": 1
+        },
+        {
+            "name": "imagedonjazzv2.png",
+            "description": "testDescription",
+            "file_name": "imagedonjazzv2.png",
+            "show_on_carousel": true,
+            "column": 1
+        },
+        {
+            "name": "manualthing copy copy.png",
+            "description": "testDescription",
+            "file_name": "manualthing copy copy.png",
+            "show_on_carousel": false,
+            "column": 1
+        },
+        {
+            "name": "Theater assignment 4Ev14.png",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev14.png",
+            "show_on_carousel": false,
+            "column": 1
+        },
+        {
+            "name": "Theater assignment 4Ev3.png",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev3.png",
+            "show_on_carousel": true,
+            "column": 1
+        }
+    ],
+
+
+
+
+    
+    "illustration-images": [
+        {
+            "name": "Buzz - Size_ 18-12 - Materials_ Watercolor, acrylic.jpg",
+            "description": "testDescription",
+            "file_name": "Buzz - Size_ 18-12 - Materials_ Watercolor, acrylic.jpg",
+            "show_on_carousel": true,
+            "column": 1
+        },
+
+        {
+            "name": "Colorful! - Size_15_17 - Materials_ Poster color.jpg",
+            "description":"testDescription",
+            "file_name": "Colorful! - Size_15_17 - Materials_ Poster color.jpg",
+            "show_on_carousel": true,
+            "column": 1
+            
+        },
+        
+        {
+            "name": "Environment - Digital _.png",
+            "description":"testDescription",
+            "file_name":"Environment - Digital _.png",
+            "show_on_carousel": true,
+            "column": 2
+        },
+
+        {
+            "name": "Feet -Size_ 14-17 - Material_ Pencil.jpg",
+            "description":"testDescription",
+            "file_name":"Feet -Size_ 14-17 - Material_ Pencil.jpg",
+            "show_on_carousel": true,
+            "column": 2
+        },
+
+        {
+            "name": "IMG_0048.JPG",
+            "description":"testDescription",
+            "file_name":"IMG_0048.JPG",
+            "show_on_carousel": false,
+            "column": 3
+        },
+
+        {
+            "name": "Light bulbs - Size_ 18-12 - Materials_ Watercolor, Pencil.jpg",
+            "description":"testDescription",
+            "file_name":"Light bulbs - Size_ 18-12 - Materials_ Watercolor, Pencil.jpg",
+            "show_on_carousel": true,
+            "column": 3
+        },
+
+        {
+            "name": "pracccc.png",
+            "description":"testDescription",
+            "file_name":"pracccc.png",
+            "show_on_carousel": true,
+            "column": 4
+        },
+
+        {
+            "name": "pracccc1.png",
+            "description":"testDescription",
+            "file_name":"pracccc1.png",
+            "show_on_carousel": false,
+            "column": 4
+        },
+        
+
+        {
+            "name": "Rest_-_size_74,_40_-_Material__pastels.jpg",
+            "description":"testDescription",
+            "file_name":"Rest_-_size_74,_40_-_Material__pastels.jpg",
+            "show_on_carousel": false,
+            "column": 1
+        },
+
+        {
+            "name": "Skeletons - Size_ 22-28 - Material_ Acrylic.jpg",
+            "description":"testDescription",
+            "file_name":"Skeletons - Size_ 22-28 - Material_ Acrylic.jpg",
+            "show_on_carousel": false,
+            "column": 2
+        }
+    ]
+
+}
