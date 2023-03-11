@@ -8,12 +8,14 @@ export default function About() {
     <div class="about-section">
 
       <div class="about-content">
-        <h2>Youngjun Cho</h2>
-        <p>Hello! My full name is Youngjun Cho, but you can call me Ryan as well. I am an illustrator and graphic designer who is currently studying at the School of Art Institute of Chicago. I love to read and scavenge the internet for old posters.</p>
+        <h2>Hi, my name is Youngjun Cho! </h2>
+        <p> I am a student designer who is a student studying at the School of The Art Institute of Chicago. </p>
+        <p> Some of my likes include: drawing, reading, researching and studying only topics that interest me, and playing video games.
+            and some of my dislikes include: drawing, being bored, trying to focus for more than 4 hrs at a time, </p>
       </div>
 
       <div class="about-pfp">
-        <img src="/pepelaugh.jpg" alt="samplepfp"></img>
+        {/* <img src="" alt="samplepfp"></img> */}
       </div>
 
       <div class="about-contact">

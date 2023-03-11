@@ -80,10 +80,6 @@ class HorizontalCarousel extends Component {
       <div>
         <div className="view-port" style={styles.view_port}>
             <div ref={ref_id => this.card_container= ref_id} className="card-container" style={styles.card_container}>
-                {/* <Card card_number="0"/>
-                <Card card_number="1" />
-                <Card card_number="2" />
-                <Card card_number="3" /> */}
                 {Object.keys(ImageData["design-images"]).map(key => {
                     if (ImageData["design-images"][key].show_on_carousel){
                         return <Card card_name={"/img/" + "design/" + ImageData["design-images"][key].file_name} />

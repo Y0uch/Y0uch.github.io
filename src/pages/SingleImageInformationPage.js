@@ -2,12 +2,30 @@ import React from 'react'
 import "./SingleImageInformationPage.css"
 import testImage from "./Buzz - Size_ 18-12 - Materials_ Watercolor, acrylic.jpg"
 import CloseButton from 'react-bootstrap/CloseButton';
+import { useParams } from "react-router-dom";
+import ImageData from "../images.json";
 
 
-export default function SingleImageInformationPage(props) {
+export default function SingleImageInformationPage() {
   const [loadStatus, setLoadStatus] = React.useState(false);
+  let { card_name } = useParams();
 
-  console.log(props.fileName);
+  const cardJSONS = Object.keys(ImageData["design-images"]).map(key => {
+    if (ImageData["design-images"][key].name === card_name){
+        return ImageData["design-images"][key];
+    }       
+  })
+  var cardJSON = {};
+  
+  for (let i = 0; i < cardJSONS.length; i++){
+    if (cardJSONS[i] !== undefined){
+      cardJSON = cardJSONS[i];
+      break;
+    }
+  }
+  console.log(cardJSON.file_name)
+  
+  const cardImage = require("../../public/img/design/" + cardJSON.file_name);
 
   return (
     <>
@@ -15,12 +33,12 @@ export default function SingleImageInformationPage(props) {
 
       <div className="main-image">
         <div className="main-image-container">
-          <img src={testImage} alt="description" />
+          <img src={cardImage} alt="description" />
         </div>
 
         <div className="main-image-description">
-          <p>This project, I used Modernist sculpture as our core object to continue our study and analysis of aspects and critical aspects. I selected a designed object. The sculptural and designed objects are from the Art Institute Museum. 
-            I analyzed the physical visual aspects and characteristics of a designed object, the way it looks, its size and dimensions, dominant shape. I defined aspects and critical aspects while trying to maintain and reduce complexity while creating a focus. The approach is organic, intuitive, and more free form with type and image compositions. For this assignment, we used the type and image compositions to design an announcement for a lecture with the chosen artist and sculptural piece that incorporates an underlying grid structure.</p>
+          <p>Project Name: {cardJSON.project_name}</p>
+          <p>{cardJSON.description}</p>
         </div>
 
       </div>
@@ -30,7 +48,25 @@ export default function SingleImageInformationPage(props) {
       <div className="previous-iterations-container">
         <div class="row">
           {/* FIRST COLUMN */}
-          <div class="column">
+
+
+          {/* {cardJSON.previous_iterations.forEach(prev_iter_fileName => {
+            return <h1>test</h1>
+          })} */}
+
+          {cardJSON.previous_iterations.map(prev_iter_fileName => {
+            var prev_iter_image = require("../../public/img/design/" + prev_iter_fileName.file_name);
+            return (
+            <div class="column">
+              <div class="img-container">
+                <img src={prev_iter_image} alt="testimage"></img>
+              </div>
+            </div>
+            )
+          })}
+
+
+          {/* <div class="column">
             <div class="img-container">
               <img src={testImage} alt="testimage"></img>
             </div>
@@ -49,7 +85,7 @@ export default function SingleImageInformationPage(props) {
             <div class="img-container">
               <img src={testImage} alt="testimage"></img>
             </div>
-          </div>
+          </div> */}
       
 
         </div>

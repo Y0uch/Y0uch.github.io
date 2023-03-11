@@ -2,82 +2,704 @@
 
     "design-images":[
         {
-            "name": "4Bv2 page assignment2.png",
+            "name": "4Bv2_page_assignment2.png",
             "description": "testDescription",
-            "file_name": "4Bv2 page assignment2.png",
-            "show_on_carousel": true,
-            "column": 1
+            "file_name": "4Bv2_page_assignment2.png",
+            "show_on_carousel": false,
+            "previous_iterations": []
         },
         {
             "name": "Artboard 1.png",
             "description": "testDescription",
             "file_name": "Artboard 1.png",
-            "show_on_carousel": true,
-            "column": 1
+            "show_on_carousel": false,
+            "previous_iterations": []
         },
         {
             "name": "Assignment W11 All Typography in Ad copy-3.png",
             "description": "testDescription",
             "file_name": "Assignment W11 All Typography in Ad copy-3.png",
             "show_on_carousel": false,
-            "column": 1
+            "previous_iterations": []
         },
         {
             "name": "Assignment W11 All Typography in Ad copy.png",
             "description": "testDescription",
             "file_name": "Assignment W11 All Typography in Ad copy.png",
             "show_on_carousel": false,
-            "column": 1
+            "previous_iterations": []
         },
         {
             "name": "don inforgraphic V10 copy-1.png",
             "description": "testDescription",
             "file_name": "don inforgraphic V10 copy-1.png",
-            "show_on_carousel": true,
-            "column": 1
+            "show_on_carousel": false,
+            "previous_iterations": []
         },
         {
             "name": "imagedonjazz copy 7.png",
             "description": "testDescription",
             "file_name": "imagedonjazz copy 7.png",
             "show_on_carousel": false,
-            "column": 1
+            "previous_iterations": []
         },
         {
             "name": "imagedonjazz.png",
             "description": "testDescription",
             "file_name": "imagedonjazz.png",
             "show_on_carousel": false,
-            "column": 1
+            "previous_iterations": []
         },
         {
             "name": "imagedonjazzv2.png",
             "description": "testDescription",
             "file_name": "imagedonjazzv2.png",
-            "show_on_carousel": true,
-            "column": 1
+            "show_on_carousel": false,
+            "previous_iterations": []
         },
         {
             "name": "manualthing copy copy.png",
             "description": "testDescription",
             "file_name": "manualthing copy copy.png",
             "show_on_carousel": false,
-            "column": 1
+            "previous_iterations": []
         },
         {
             "name": "Theater assignment 4Ev14.png",
             "description": "testDescription",
             "file_name": "Theater assignment 4Ev14.png",
             "show_on_carousel": false,
-            "column": 1
+            "previous_iterations": []
         },
         {
             "name": "Theater assignment 4Ev3.png",
             "description": "testDescription",
             "file_name": "Theater assignment 4Ev3.png",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "book spreadv7.jpg",
+            "description": "testDescription",
+            "file_name": "spreadv7.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "book spreadv712.jpg",
+            "description": "testDescription",
+            "file_name": "spreadv712.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "book spreadv713.jpg",
+            "description": "testDescription",
+            "file_name": "spreadv713.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "book spreadv714.jpg",
+            "description": "testDescription",
+            "file_name": "spreadv714.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "book spreadv715.jpg",
+            "description": "testDescription",
+            "file_name": "spreadv715.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "book spreadv716.jpg",
+            "description": "testDescription",
+            "file_name": "spreadv716.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "book spreadv72.jpg",
+            "description": "testDescription",
+            "file_name": "spreadv72.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "book spreadv73.jpg",
+            "description": "testDescription",
+            "file_name": "spreadv73.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "book spreadv74.jpg",
+            "description": "testDescription",
+            "file_name": "spreadv74.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "book spreadv75.jpg",
+            "description": "testDescription",
+            "file_name": "spreadv75.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "book spreadv76.jpg",
+            "description": "testDescription",
+            "file_name": "spreadv76.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "book spreadv77.jpg",
+            "description": "testDescription",
+            "file_name": "spreadv77.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "book spreadv78.jpg",
+            "description": "testDescription",
+            "file_name": "spreadv78.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "book spreadv79.jpg",
+            "description": "testDescription",
+            "file_name": "spreadv79.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "book_spreadv710.jpg",
+            "description": "testDescription",
+            "file_name": "book_spreadv710.jpg",
             "show_on_carousel": true,
-            "column": 1
-        }
+            "previous_iterations": [
+                {"file_name": "book spreadv79.jpg"},
+                {"file_name": "book spreadv78.jpg"},
+                {"file_name": "book spreadv77.jpg"},
+                {"file_name": "book spreadv76.jpg"},
+                {"file_name": "book spreadv75.jpg"},
+                {"file_name": "book spreadv74.jpg"},
+                {"file_name": "book spreadv73.jpg"},
+                {"file_name": "book spreadv72.jpg"},
+                {"file_name": "book spreadv716.jpg"},
+                {"file_name": "book spreadv72.jpg"},
+                {"file_name": "book spreadv72.jpg"},
+                {"file_name": "book spreadv715.jpg"}
+            ]
+        },
+        {
+            "name": "book_spreadv711.jpg",
+            "description": "testDescription",
+            "file_name": "book_spreadv711.jpg",
+            "show_on_carousel": true,
+            "previous_iterations": [
+                {"file_name": "book spreadv79.jpg"},
+                {"file_name": "book spreadv78.jpg"},
+                {"file_name": "book spreadv77.jpg"},
+                {"file_name": "book spreadv76.jpg"},
+                {"file_name": "book spreadv75.jpg"},
+                {"file_name": "book spreadv74.jpg"},
+                {"file_name": "book spreadv73.jpg"},
+                {"file_name": "book spreadv72.jpg"},
+                {"file_name": "book spreadv716.jpg"},
+                {"file_name": "book spreadv72.jpg"},
+                {"file_name": "book spreadv72.jpg"},
+                {"file_name": "book spreadv715.jpg"}
+            ]
+        },
+        {
+            "name": "11x17 version 1s.jpg",
+            "description": "testDescription",
+            "file_name": "11x17 version 1s.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "11x17 version 1s2.jpg",
+            "description": "testDescription",
+            "file_name": "11x17 version 1s2.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "11x17 version 1s3.jpg",
+            "description": "testDescription",
+            "file_name": "11x17 version 1s3.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "11x17 version 1s4.jpg",
+            "description": "testDescription",
+            "file_name": "11x17 version 1s4.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "11x17 version 1s5.jpg",
+            "description": "testDescription",
+            "file_name": "11x17 version 1s5.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "11x17 version2.jpg",
+            "description": "testDescription",
+            "file_name": "11x17 version2.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "11x17 version22.jpg",
+            "description": "testDescription",
+            "file_name": "11x17 version22.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "11x17 version23.jpg",
+            "description": "testDescription",
+            "file_name": "11x17 version23.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "better iterations pt2.jpg",
+            "description": "testDescription",
+            "file_name": "better iterations pt2.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "better iterations pt22.jpg",
+            "description": "testDescription",
+            "file_name": "better iterations pt22.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "better iterations pt23.jpg",
+            "description": "testDescription",
+            "file_name": "better iterations pt23.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "better iterations pt24.jpg",
+            "description": "testDescription",
+            "file_name": "better iterations pt24.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "better iterations pt25.jpg",
+            "description": "testDescription",
+            "file_name": "better iterations pt25.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "better iterations pt26.jpg",
+            "description": "testDescription",
+            "file_name": "better iterations pt26.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "don inforgraphic V10 copy.jpg",
+            "description": "testDescription",
+            "file_name": "don inforgraphic V10 copy.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "don inforgraphic V3.jpg",
+            "description": "testDescription",
+            "file_name": "don inforgraphic V3.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "don inforgraphic V6.jpg",
+            "description": "testDescription",
+            "file_name": "don inforgraphic V6.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "don inforgraphic V7.jpg",
+            "description": "testDescription",
+            "file_name": "don inforgraphic V7.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "don inforgraphic V8.jpg",
+            "description": "testDescription",
+            "file_name": "don inforgraphic V8.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "don inforgraphic V9.jpg",
+            "description": "testDescription",
+            "file_name": "don inforgraphic V9.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "don_inforgraphic_V10.jpg",
+            "project_name": "The Story",
+            "description": "A critical reading of the short paragraph story will begin. The various meanings of the reading will be discussed and metaphors and analogies will be developed as a strategy. First, the metaphorical ‘empire’ will be studied. An analogy for the ‘empire’ will be considered as a source to develop the project imagery. The narrative may take many forms and it is not restricted to a book. Sculpture or two dimensional solutions are possible. Processes may once again include the collage process if one desires : dying papers, photocopying maps and aging process ,photographing maps and setting type, but it is not limited to these means. text for story design : by Jorges Borges:  MUSEUM, ON EXACTITUDE IN SCIENCE ...In that Empire, the Art of Cartography attained such Perfection that the map of a single Province occupied the entirety of a City, and the map of the Empire, the entirety of a Province. In time, those Unconscionable Maps no longer satisfied, and the Cartographers Guilds stuck a Map of the Empire who size was that of the Empire, and which coincided point for point with it. The following Generations, who were not so fond of the Study of Cartography as their Fore bearers had been,saw that the vast Map was Useless, and not without some Pitilessness, that they delivered it up to the Inclemencies of Sun and Winters. In the Deserts of the West, still today, there are Tattered Ruins of the Map, inhabited by Animals and Beggars; in all the Land there is no other Relic of the Disciplines of Geography. Suarez Miranda, Viajes de prudentes, Libro IV, Cap.XLV,Lerida,1658 Jorge Borges",
+            "file_name": "don_inforgraphic_V10.jpg",
+            "show_on_carousel": true,
+            "previous_iterations": [
+                {"file_name":"don inforgraphic V10 copy.jpg"},
+                {"file_name":"don inforgraphic V3.jpg"},
+                {"file_name":"don inforgraphic V6.jpg"},
+                {"file_name":"don inforgraphic V7.jpg"},
+                {"file_name":"don inforgraphic V8.jpg"},
+                {"file_name":"don inforgraphic V9.jpg"}
+            ]
+        },
+        {
+            "name": "don jazz poster",
+            "description": "testDescription",
+            "file_name": "don jazz poster",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "imagedonjazz copy 2.jpg",
+            "description": "testDescription",
+            "file_name": "imagedonjazz copy 2.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "imagedonjazz copy 3.jpg",
+            "description": "testDescription",
+            "file_name": "imagedonjazz copy 3.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "imagedonjazz copy 5.jpg",
+            "description": "testDescription",
+            "file_name": "imagedonjazz copy 5.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "imagedonjazz copy 6.jpg",
+            "description": "testDescription",
+            "file_name": "imagedonjazz copy 6.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "imagedonjazz2.jpg",
+            "description": "testDescription",
+            "file_name": "imagedonjazz2.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "imagedonjazz_copy_7.jpg",
+            "project_name": "Don Jazz",
+            "description": "Design a Jazz musician poster based on the collage images previously developed. Using the Miles Davis’s music as a reference and idea as a basis of the poster’s concept. ",
+            "file_name": "imagedonjazz_copy_7.jpg",
+            "show_on_carousel": true,
+            "previous_iterations": [
+                {"file_name":"imagedonjazz copy 2.jpg"},
+                {"file_name":"imagedonjazz copy 3.jpg"},
+                {"file_name":"imagedonjazz copy 5.jpg"},
+                {"file_name":"imagedonjazz copy 6.jpg"}
+            ]
+        },
+        {
+            "name": "imagedonjazz.jpg",
+            "project_name": "Jazz Poster",
+            "description": "Design a Jazz musician poster based on the collage images previously developed. Using the Miles Davis’s music as a reference and idea as a basis of the poster’s concept. ",
+            "file_name": "imagedonjazz.jpg",
+            "show_on_carousel": true,
+            "previous_iterations": [
+                {"file_name":"imagedonjazz2.jpg"}
+            ]
+        },
+        {
+            "name": "4Bv2 page assignment2.jpg",
+            "description": "testDescription",
+            "file_name": "4Bv2 page assignment2.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Assignment W11 All Typography in Ad copy-3.jpg",
+            "description": "testDescription",
+            "file_name": "Assignment W11 All Typography in Ad copy-3.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "AccordionBookfinalthing_Page_1.jpg",
+            "description": "testDescription",
+            "file_name": "AccordionBookfinalthing_Page_1.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "AccordionBookfinalthing_Page_2.jpg",
+            "description": "testDescription",
+            "file_name": "AccordionBookfinalthing_Page_2.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "AccordionBookfinalthing_Page_3.jpg",
+            "description": "testDescription",
+            "file_name": "AccordionBookfinalthing_Page_3.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "AccordionBookfinalthing_Page_4.jpg",
+            "description": "testDescription",
+            "file_name": "AccordionBookfinalthing_Page_4.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "AccordionBookfinalthing_Page_5.jpg",
+            "description": "testDescription",
+            "file_name": "AccordionBookfinalthing_Page_5.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "AccordionBookfinalthing_Page_6.jpg",
+            "description": "testDescription",
+            "file_name": "AccordionBookfinalthing_Page_6.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "AccordionBookfinalthing_Page_7.jpg",
+            "description": "testDescription",
+            "file_name": "AccordionBookfinalthing_Page_7.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "assignment 1.jpg",
+            "description": "testDescription",
+            "file_name": "assignment 1.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "assignment_4d_2.jpg",
+            "description": "testDescription",
+            "file_name": "assignment_4d_2.jpg",
+            "show_on_carousel": true,
+            "previous_iterations": [
+                {"file_name": "assignment_4d_23.jpg"}
+            ]
+        },
+        {
+            "name": "assignment 4d 3.jpg",
+            "description": "testDescription",
+            "file_name": "assignment 4d 3.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "fontbase.jpg",
+            "description": "testDescription",
+            "file_name": "fontbase.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "words heirarchy list.jpg",
+            "description": "testDescription",
+            "file_name": "words heirarchy list.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4E.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4E.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4E20.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4E20.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev10.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev10.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev11.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev11.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev12.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev12.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev122.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev122.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev13 (1).jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev13 (1).jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev13.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev13.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev14.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev14.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev15.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev15.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev16.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev16.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev17.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev17.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev19.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev19.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev21.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev21.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev3.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev3.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev4.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev4.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev5.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev5.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev6.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev6.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev7.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev7.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev8.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev8.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "Theater assignment 4Ev9.jpg",
+            "description": "testDescription",
+            "file_name": "Theater assignment 4Ev9.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "assignment 4d 2.jpg",
+            "description": "testDescription",
+            "file_name": "assignment 4d 2.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": []
+        },
+        {
+            "name": "assignment_4d_23.jpg",
+            "project_name": "",
+            "description": "My project continues my investigations of page arrangement, grids and hierarchies, with more text than the previous projects. ",
+            "file_name": "assignment_4d_23.jpg",
+            "show_on_carousel": true,
+            "previous_iterations": [
+                {"file_name": "assignment_4d_2.jpg"}
+            ]
+        }        
     ],
 
 
@@ -89,7 +711,7 @@
             "name": "Buzz - Size_ 18-12 - Materials_ Watercolor, acrylic.jpg",
             "description": "testDescription",
             "file_name": "Buzz - Size_ 18-12 - Materials_ Watercolor, acrylic.jpg",
-            "show_on_carousel": true,
+            "show_on_carousel": false,
             "column": 1
         },
 
@@ -97,7 +719,7 @@
             "name": "Colorful! - Size_15_17 - Materials_ Poster color.jpg",
             "description":"testDescription",
             "file_name": "Colorful! - Size_15_17 - Materials_ Poster color.jpg",
-            "show_on_carousel": true,
+            "show_on_carousel": false,
             "column": 1
             
         },
@@ -106,7 +728,7 @@
             "name": "Environment - Digital _.png",
             "description":"testDescription",
             "file_name":"Environment - Digital _.png",
-            "show_on_carousel": true,
+            "show_on_carousel": false,
             "column": 2
         },
 
@@ -114,7 +736,7 @@
             "name": "Feet -Size_ 14-17 - Material_ Pencil.jpg",
             "description":"testDescription",
             "file_name":"Feet -Size_ 14-17 - Material_ Pencil.jpg",
-            "show_on_carousel": true,
+            "show_on_carousel": false,
             "column": 2
         },
 
@@ -130,7 +752,7 @@
             "name": "Light bulbs - Size_ 18-12 - Materials_ Watercolor, Pencil.jpg",
             "description":"testDescription",
             "file_name":"Light bulbs - Size_ 18-12 - Materials_ Watercolor, Pencil.jpg",
-            "show_on_carousel": true,
+            "show_on_carousel": false,
             "column": 3
         },
 
@@ -138,7 +760,7 @@
             "name": "pracccc.png",
             "description":"testDescription",
             "file_name":"pracccc.png",
-            "show_on_carousel": true,
+            "show_on_carousel": false,
             "column": 4
         },
 

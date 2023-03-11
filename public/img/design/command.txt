@@ -1,0 +1,2 @@
+Get all filenames in directory:
+	Get-ChildItem -Name -Recurse > dirlist.txt

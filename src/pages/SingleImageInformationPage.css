@@ -5,12 +5,12 @@
 }
 
 .main-image-container img{
-    margin-left: 100%;
+    margin-left: 10%;
     height: 500px;
 }
 
 .main-image-description {
-    margin-left: 30%;
+    margin-left: 15%;
     margin-right: 2%;
     justify-content: center;
     text-align: center;
@@ -18,7 +18,8 @@
 
 .previous-iterations-container img {
     display: block;
-    max-height: 300px;
+    max-height: 100%;
+    /* max-width: 30%; */
     width: auto;
 }
 .previous-iterations-container {

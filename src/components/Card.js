@@ -1,11 +1,24 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 
 function Card(props) {
+  const singleImageInfoParams = {
+    // filenames that go on carousel cannot have spaces in them since urls don't have spaces
+    // ensure that file name doesn't have spaces before adding it to pathname
+    pathname: "singleImageInfo" + props.card_name,
+    card_name: props.card_name
+  };
+
+  // console.log(props.card_name)
+  // let path = "singleImageInfo" + props.card_name;
+
   return (
     <div style={styles.card}>
-        <a href={"singleImageInfo" + props.card_name} >
-          <img style={styles.card} src={props.card_name} alt="description"/>
-        </a>
+      {/* <Link to={{ pathname: "/singleImageInfo", state: props.card_name }}> */}
+      {/* <Link to="singleImageInfo" params={{ testvalue: "hello" }}> */}
+      <Link to={singleImageInfoParams} >
+        <img style={styles.card} src={props.card_name} alt="description"/>
+      </Link>
     </div>
   )
 }
