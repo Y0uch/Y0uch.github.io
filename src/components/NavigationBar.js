@@ -25,7 +25,7 @@ export default function NavigationBar() {
                     <a href="/" class="nav-link m-2 menu-item">Illustrations</a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://youngjuncho.me/about" class="nav-link m-2 menu-item">About</a>
+                    <a href="https:/y0uch.github.io/about" class="nav-link m-2 menu-item">About</a>
                 </li>
           </ul>
         </div>
