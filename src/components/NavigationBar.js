@@ -1,9 +1,8 @@
 import React from 'react'
 import "./NavigationBar.css";
-
+import {Link} from "react-router-dom";
 
 export default function NavigationBar() {
-  
   return (
     <>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -17,13 +16,6 @@ export default function NavigationBar() {
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          {/* <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
-              <a class="nav-link" href="/">Illustrations</a>
-              <a class="nav-link" href="/about">About</a>
-            </div>
-          </div> */}
 
           <ul class="navbar-nav ms-auto flex-nowrap">
                 <li class="nav-item">
@@ -33,7 +25,7 @@ export default function NavigationBar() {
                     <a href="/" class="nav-link m-2 menu-item">Illustrations</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/about" class="nav-link m-2 menu-item">About</a>
+                    <a href="https://youngjuncho.me/about" class="nav-link m-2 menu-item">About</a>
                 </li>
           </ul>
         </div>
