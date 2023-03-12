@@ -14,8 +14,6 @@ function Card(props) {
 
   return (
     <div style={styles.card}>
-      {/* <Link to={{ pathname: "/singleImageInfo", state: props.card_name }}> */}
-      {/* <Link to="singleImageInfo" params={{ testvalue: "hello" }}> */}
       <Link to={singleImageInfoParams} >
         <img style={styles.card} src={props.card_name} alt="description"/>
       </Link>

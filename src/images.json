@@ -418,7 +418,7 @@
             "project_name": "Don Jazz",
             "description": "Design a Jazz musician poster based on the collage images previously developed. Using the Miles Davis’s music as a reference and idea as a basis of the poster’s concept. ",
             "file_name": "imagedonjazz_copy_7.jpg",
-            "show_on_carousel": true,
+            "show_on_carousel": false,
             "previous_iterations": [
                 {"file_name":"imagedonjazz copy 2.jpg"},
                 {"file_name":"imagedonjazz copy 3.jpg"},
@@ -433,7 +433,11 @@
             "file_name": "imagedonjazz.jpg",
             "show_on_carousel": true,
             "previous_iterations": [
-                {"file_name":"imagedonjazz2.jpg"}
+                {"file_name":"imagedonjazz2.jpg"},
+                {"file_name":"imagedonjazz copy 2.jpg"},
+                {"file_name":"imagedonjazz copy 3.jpg"},
+                {"file_name":"imagedonjazz copy 5.jpg"},
+                {"file_name":"imagedonjazz copy 6.jpg"}
             ]
         },
         {
@@ -510,7 +514,7 @@
             "name": "assignment_4d_2.jpg",
             "description": "testDescription",
             "file_name": "assignment_4d_2.jpg",
-            "show_on_carousel": true,
+            "show_on_carousel": false,
             "previous_iterations": [
                 {"file_name": "assignment_4d_23.jpg"}
             ]
@@ -657,10 +661,32 @@
         },
         {
             "name": "Theater assignment 4Ev6.jpg",
-            "description": "testDescription",
+            "project_name": "Typography poster: 59E59 Theaters",
+            "description": "",
             "file_name": "Theater assignment 4Ev6.jpg",
-            "show_on_carousel": false,
-            "previous_iterations": []
+            "show_on_carousel": true,
+            "previous_iterations": [
+                {"file_name":"Theater assignment 4E.jpg"},
+                {"file_name": "Theater assignment 4E20.jpg"},
+                {"file_name": "Theater assignment 4Ev10.jpg"},
+                {"file_name": "Theater assignment 4Ev11.jpg"},
+                {"file_name": "Theater assignment 4Ev12.jpg"},
+                {"file_name": "Theater assignment 4Ev122.jpg"},
+                {"file_name": "Theater assignment 4Ev13 (1).jpg"},
+                {"file_name": "Theater assignment 4Ev13.jpg"},
+                {"file_name": "Theater assignment 4Ev14.jpg"},
+                {"file_name": "Theater assignment 4Ev15.jpg"},
+                {"file_name": "Theater assignment 4Ev16.jpg"},
+                {"file_name": "Theater assignment 4Ev17.jpg"},
+                {"file_name": "Theater assignment 4Ev19.jpg"},
+                {"file_name": "Theater assignment 4Ev21.jpg"},
+                {"file_name": "Theater assignment 4Ev3.jpg"},
+                {"file_name": "Theater assignment 4Ev4.jpg"},
+                {"file_name": "Theater assignment 4Ev5.jpg"},
+                {"file_name": "Theater assignment 4Ev7.jpg"},
+                {"file_name": "Theater assignment 4Ev8.jpg"},
+                {"file_name": "Theater assignment 4Ev9.jpg"}
+            ]
         },
         {
             "name": "Theater assignment 4Ev7.jpg",
@@ -695,11 +721,90 @@
             "project_name": "",
             "description": "My project continues my investigations of page arrangement, grids and hierarchies, with more text than the previous projects. ",
             "file_name": "assignment_4d_23.jpg",
-            "show_on_carousel": true,
+            "show_on_carousel": false,
             "previous_iterations": [
                 {"file_name": "assignment_4d_2.jpg"}
             ]
-        }        
+        },
+        {
+            "name": "main_chair1.jpg",
+            "project_name": "Modernist Poster: Marcel Breuer",
+            "description": "",
+            "file_name": "main_chair2.jpg",
+            "show_on_carousel": true,
+            "previous_iterations": [
+                {"file_name": "11x17 version2.jpg"},
+                {"file_name": "11x17 version22.jpg"},
+                {"file_name": "11x17 version23.jpg"},
+                {"file_name": "11x17 final listv1.jpg"},
+                {"file_name": "11x17 final listv2.jpg"},
+                {"file_name": "11x17 final listv3.jpg"},
+                {"file_name": "11x17 final listv4.jpg"},
+                {"file_name": "11x17 final listv4v2.jpg"},
+                {"file_name": "11x17 final listv5.jpg"},
+                {"file_name": "11x17 final listv6.jpg"},
+                {"file_name": "11x17 final listv7.jpg"},
+                {"file_name": "11x17 final listv8.jpg"},
+                {"file_name": "11x17 final listv8.2.jpg"},
+                {"file_name": "11x17 final listv9.jpg"},
+                {"file_name": "11x17 final listv10.jpg"},
+                {"file_name": "type study for the body text _Page_1.jpg"},
+                {"file_name": "modernist poster type study chaise copy_Page_1.jpg"}
+            ]
+        },
+        {
+            "name": "main_chair2.jpg",
+            "project_name": "Modernist Poster: Marcel Breuer",
+            "description": "",
+            "file_name": "main_chair3.jpg",
+            "show_on_carousel": true,
+            "previous_iterations": [
+                {"file_name": "11x17 version2.jpg"},
+                {"file_name": "11x17 version22.jpg"},
+                {"file_name": "11x17 version23.jpg"},
+                {"file_name": "11x17 final listv1.jpg"},
+                {"file_name": "11x17 final listv2.jpg"},
+                {"file_name": "11x17 final listv3.jpg"},
+                {"file_name": "11x17 final listv4.jpg"},
+                {"file_name": "11x17 final listv4v2.jpg"},
+                {"file_name": "11x17 final listv5.jpg"},
+                {"file_name": "11x17 final listv6.jpg"},
+                {"file_name": "11x17 final listv7.jpg"},
+                {"file_name": "11x17 final listv8.jpg"},
+                {"file_name": "11x17 final listv8.2.jpg"},
+                {"file_name": "11x17 final listv9.jpg"},
+                {"file_name": "11x17 final listv10.jpg"},
+                {"file_name": "type study for the body text _Page_2.jpg"},
+                {"file_name": "modernist poster type study chaise copy_Page_2.jpg"}
+            ]
+        },
+        {
+            "name": "main_chair3.jpg",
+            "project_name": "Modernist Poster: Marcel Breuer",
+            "description": "",
+            "file_name": "main_chair1.jpg",
+            "show_on_carousel": true,
+            "previous_iterations": [
+                {"file_name": "11x17 version2.jpg"},
+                {"file_name": "11x17 version22.jpg"},
+                {"file_name": "11x17 version23.jpg"},
+                {"file_name": "11x17 final listv1.jpg"},
+                {"file_name": "11x17 final listv2.jpg"},
+                {"file_name": "11x17 final listv3.jpg"},
+                {"file_name": "11x17 final listv4.jpg"},
+                {"file_name": "11x17 final listv4v2.jpg"},
+                {"file_name": "11x17 final listv5.jpg"},
+                {"file_name": "11x17 final listv6.jpg"},
+                {"file_name": "11x17 final listv7.jpg"},
+                {"file_name": "11x17 final listv8.jpg"},
+                {"file_name": "11x17 final listv8.2.jpg"},
+                {"file_name": "11x17 final listv9.jpg"},
+                {"file_name": "11x17 final listv10.jpg"},
+                {"file_name": "type study for the body text _Page_3.jpg"},
+                {"file_name": "modernist poster type study chaise copy_Page_3.jpg"}
+            ]
+        }
+        
     ],
 
 
