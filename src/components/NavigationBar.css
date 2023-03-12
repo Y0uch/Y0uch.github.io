@@ -5,3 +5,22 @@
 .navContainer {
     background-color: white;
 }
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+li {
+    margin: 0 20px;
+    margin-top: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color:  #4C4E52;
+    font-size: 16px;
+}

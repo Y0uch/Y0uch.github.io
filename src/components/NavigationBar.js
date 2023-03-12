@@ -1,6 +1,6 @@
 import React from 'react'
 import "./NavigationBar.css";
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 export default function NavigationBar() {
   return (
@@ -17,53 +17,21 @@ export default function NavigationBar() {
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <ul class="navbar-nav ms-auto flex-nowrap">
-                <li class="nav-item">
-                    <a href="/" class="nav-link m-2 menu-item nav-active">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="/" class="nav-link m-2 menu-item">Illustrations</a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://y0uch.github.io/about" class="nav-link m-2 menu-item">About</a>
-                </li>
+          <ul>
+            <li class="nav-item">
+              <Link to="/">Home</Link>
+            </li>
+            <li class="nav-item">
+              <Link to="/">Illustrations</Link>
+            </li>
+            <li class="nav-item">
+              <Link to="/about">About</Link>
+            </li>
           </ul>
         </div>
       </nav>
     </div>
-    
-
-
-    
-    {/* <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="d-flex flex-grow-1">
-            <span class="w-100 d-lg-none d-block">
-                </span>
-            <a class="navbar-brand d-none d-lg-inline-block" href="#"> Youngjun Cho </a>
-            <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
-            </a>
-            <div class="w-100 text-right">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-        </div>
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-            <ul class="navbar-nav ms-auto flex-nowrap">
-                <li class="nav-item">
-                    <a href="#" class="nav-link m-2 menu-item nav-active">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link m-2 menu-item">Illustrations</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link m-2 menu-item">About</a>
-                </li>
-            </ul>
-        </div>
-    </nav> */}
-
-
+  
     </>
   )
 }
