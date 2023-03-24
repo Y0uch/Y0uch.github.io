@@ -47,6 +47,13 @@
             "show_on_carousel": false,
             "type": "illustration"
         },
+        {
+            "name": "workv3.jpg",
+            "description":"testDescription",
+            "file_name":"workv3.jpg",
+            "show_on_carousel": false,
+            "type": "illustration"
+        },
 
         {
             "name": "4Bv2_page_assignment2.png",

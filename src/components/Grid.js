@@ -27,7 +27,7 @@ export default function Grid() {
                     return (
                         <div class="column">
                             <div class="img-container">
-                                <img src={fileName} alt="testimage"></img>
+                                <a href={fileName}><img src={fileName} alt="testimage"></img></a>
                             </div>
                         </div>
                     )
