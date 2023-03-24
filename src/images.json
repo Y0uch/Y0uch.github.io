@@ -1,4 +1,153 @@
 {
+    
+    "view_all_projects": [
+        {
+            "name": "Buzz - Size_ 18-12 - Materials_ Watercolor, acrylic.jpg",
+            "file_name": "Buzz - Size_ 18-12 - Materials_ Watercolor, acrylic.jpg",
+            "show_on_carousel": false,
+            "type": "illustration"
+        },
+        {
+            "name": "Colorful! - Size_15_17 - Materials_ Poster color.jpg",
+            "description":"testDescription",
+            "file_name": "Colorful_Poster.jpg",
+            "show_on_carousel": false,
+            "type": "illustration"
+            
+        },
+
+        {
+            "name": "IMG_0048.jpg",
+            "description":"testDescription",
+            "file_name":"IMG_0048.jpg",
+            "show_on_carousel": false,
+            "type": "illustration"
+        },
+
+        {
+            "name": "Light bulbs - Size_ 18-12 - Materials_ Watercolor, Pencil.jpg",
+            "description":"testDescription",
+            "file_name":"Light bulbs - Size_ 18-12 - Materials_ Watercolor, Pencil.jpg",
+            "show_on_carousel": false,
+            "type": "illustration"
+        },
+
+        {
+            "name": "pracccc.jpg",
+            "description":"testDescription",
+            "file_name":"pracccc.jpg",
+            "show_on_carousel": false,
+            "type": "illustration"
+        },
+
+        {
+            "name": "pracccc1.jpg",
+            "description":"testDescription",
+            "file_name":"pracccc1.jpg",
+            "show_on_carousel": false,
+            "type": "illustration"
+        },
+
+        {
+            "name": "4Bv2_page_assignment2.png",
+            "description": "testDescription",
+            "file_name": "4Bv2_page_assignment2.png",
+            "show_on_carousel": false,
+            "previous_iterations": [],
+            "type": "design"
+        },
+        {
+            "name": "Assignment W11 All Typography in Ad copy-3.png",
+            "description": "testDescription",
+            "file_name": "Assignment W11 All Typography in Ad copy-3.png",
+            "show_on_carousel": false,
+            "previous_iterations": [],
+            "type": "design"
+        },
+        {
+            "name": "assignment 1.jpg",
+            "description": "testDescription",
+            "file_name": "assignment 1.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": [],
+            "type": "design"
+        },
+        {
+            "name": "assignment_4d_2.jpg",
+            "description": "testDescription",
+            "file_name": "assignment_4d_2.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": [
+                {"file_name": "assignment_4d_23.jpg"}
+            ],
+            "type": "design"
+        },
+        {
+            "name": "assignment 4d 3.jpg",
+            "description": "testDescription",
+            "file_name": "assignment 4d 3.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": [],
+            "type": "design"
+        },
+        {
+            "name": "AccordionBookfinalthing_Page_1.jpg",
+            "description": "testDescription",
+            "file_name": "AccordionBookfinalthing_Page_1.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": [],
+            "type": "design"
+        },
+        {
+            "name": "AccordionBookfinalthing_Page_2.jpg",
+            "description": "testDescription",
+            "file_name": "AccordionBookfinalthing_Page_2.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": [],
+            "type": "design"
+        },
+        {
+            "name": "AccordionBookfinalthing_Page_3.jpg",
+            "description": "testDescription",
+            "file_name": "AccordionBookfinalthing_Page_3.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": [],
+            "type": "design"
+        },
+        {
+            "name": "AccordionBookfinalthing_Page_4.jpg",
+            "description": "testDescription",
+            "file_name": "AccordionBookfinalthing_Page_4.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": [],
+            "type": "design"
+        },
+        {
+            "name": "AccordionBookfinalthing_Page_5.jpg",
+            "description": "testDescription",
+            "file_name": "AccordionBookfinalthing_Page_5.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": [],
+            "type": "design"
+        },
+        {
+            "name": "AccordionBookfinalthing_Page_6.jpg",
+            "description": "testDescription",
+            "file_name": "AccordionBookfinalthing_Page_6.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": [],
+            "type": "design"
+        },
+        {
+            "name": "AccordionBookfinalthing_Page_7.jpg",
+            "description": "testDescription",
+            "file_name": "AccordionBookfinalthing_Page_7.jpg",
+            "show_on_carousel": false,
+            "previous_iterations": [],
+            "type": "design"
+        }
+    ],
+    
 
     "design-images":[
         {
@@ -178,7 +327,7 @@
         },
         {
             "name": "book_spreadv710.jpg",
-            "description": "testDescription",
+            "description": "",
             "file_name": "book_spreadv710.jpg",
             "show_on_carousel": true,
             "previous_iterations": [
@@ -198,7 +347,7 @@
         },
         {
             "name": "book_spreadv711.jpg",
-            "description": "testDescription",
+            "description": "",
             "file_name": "book_spreadv711.jpg",
             "show_on_carousel": true,
             "previous_iterations": [
@@ -748,8 +897,8 @@
                 {"file_name": "11x17 final listv8.2.jpg"},
                 {"file_name": "11x17 final listv9.jpg"},
                 {"file_name": "11x17 final listv10.jpg"},
-                {"file_name": "type study for the body text _Page_1.jpg"},
-                {"file_name": "modernist poster type study chaise copy_Page_1.jpg"}
+                {"file_name": "modernist poster type study chaise copy_Page_1.jpg"},
+                {"file_name": "type study for the body text _Page_1.jpg"}
             ]
         },
         {
@@ -774,8 +923,8 @@
                 {"file_name": "11x17 final listv8.2.jpg"},
                 {"file_name": "11x17 final listv9.jpg"},
                 {"file_name": "11x17 final listv10.jpg"},
-                {"file_name": "type study for the body text _Page_2.jpg"},
-                {"file_name": "modernist poster type study chaise copy_Page_2.jpg"}
+                {"file_name": "modernist poster type study chaise copy_Page_2.jpg"},
+                {"file_name": "type study for the body text _Page_2.jpg"}
             ]
         },
         {
@@ -800,8 +949,8 @@
                 {"file_name": "11x17 final listv8.2.jpg"},
                 {"file_name": "11x17 final listv9.jpg"},
                 {"file_name": "11x17 final listv10.jpg"},
-                {"file_name": "type study for the body text _Page_3.jpg"},
-                {"file_name": "modernist poster type study chaise copy_Page_3.jpg"}
+                {"file_name": "modernist poster type study chaise copy_Page_3.jpg"},
+                {"file_name": "type study for the body text _Page_3.jpg"}
             ]
         }
         

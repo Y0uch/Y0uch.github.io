@@ -106,6 +106,8 @@
 
 .img-container {
   position: relative;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 .img-container:hover .overlay {
   opacity: 0.6;

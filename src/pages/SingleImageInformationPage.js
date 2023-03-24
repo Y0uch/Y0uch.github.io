@@ -9,6 +9,7 @@ import ImageData from "../images.json";
 export default function SingleImageInformationPage() {
   const [loadStatus, setLoadStatus] = React.useState(false);
   let { card_name } = useParams();
+  var counter = 0;
 
   const cardJSONS = Object.keys(ImageData["design-images"]).map(key => {
     if (ImageData["design-images"][key].name === card_name){
@@ -49,21 +50,45 @@ export default function SingleImageInformationPage() {
         <div class="row">
           {/* FIRST COLUMN */}
 
-
-          {/* {cardJSON.previous_iterations.forEach(prev_iter_fileName => {
-            return <h1>test</h1>
-          })} */}
-
           {cardJSON.previous_iterations.map(prev_iter_fileName => {
             var prev_iter_image = require("../../public/img/design/" + prev_iter_fileName.file_name);
+            ++counter;
+            // console.log("Div: ", Math.floor(cardJSON.previous_iterations.length / counter))
+            let remainder = cardJSON.previous_iterations.length % 4;
+            console.log("counter:", counter);
+            console.log("remainder:", remainder);
+
+            // if no remainder after modulo 4, return original img-container
+            if (remainder === 0){
+              return (
+                <div class="column">
+                  <div class="img-container">
+                    <img src={prev_iter_image} alt="testimage"></img>
+                  </div>
+                </div>
+              )
+            }
+            
+            // Check if remainder < 4 AND if remainder < 2. If remainder is 1 then minimize the image to img-container-2
+            if ((counter > cardJSON.previous_iterations.length - remainder) && (remainder < 2)){ 
+              return (
+                <div class="column">
+                  <div class="img-container-2">
+                    <img src={prev_iter_image} alt="testimage"></img>
+                  </div>
+                </div>
+              )
+            }
+            // Dynamic sizing of images
             return (
-            <div class="column">
-              <div class="img-container">
-                <img src={prev_iter_image} alt="testimage"></img>
-              </div>
-            </div>
+                <div class="column">
+                  <div class="img-container">
+                    <img src={prev_iter_image} alt="testimage"></img>
+                  </div>
+                </div>
             )
           })}
+          
 
 
           {/* <div class="column">
@@ -85,8 +110,14 @@ export default function SingleImageInformationPage() {
             <div class="img-container">
               <img src={testImage} alt="testimage"></img>
             </div>
+          </div>
+          <div class="column">
+            <div class="img-container-2">
+              <img src={testImage} alt="testimage"></img>
+            </div>
           </div> */}
-      
+          
+
 
         </div>
       </div>

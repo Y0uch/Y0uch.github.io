@@ -26,6 +26,13 @@
     margin: 2%;
 }
 
+.img-container {
+  max-width: 100%;
+}
+.img-container-2 {
+  max-width: 23.5%;
+}
+
 
 /* Previous iteration grid */
 
@@ -39,7 +46,7 @@
 
 .column {
   flex: 25%;
-  max-width: 25%;
+  /* max-width: 25%; */
   padding: 0 4px;
 }
   
@@ -48,4 +55,5 @@
   vertical-align: middle;
   width: 100%;
 }
+
 
