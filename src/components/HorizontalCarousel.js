@@ -29,13 +29,14 @@ class HorizontalCarousel extends Component {
             this.setState({current_card: new_current_card}, () => {
                 // transition effect
                 this.card_container.style.transitionDuration = "0.5s";
-                this.card_container.style.transform = `translate(-${350 * this.state.current_card}px)`;
+                this.card_container.style.transform = `translate(-${450 * this.state.current_card}px)`;
                 
                 // Snap back last element to first element of the card/image if user reached the end.
-                if (this.state.current_card === this.card_container.children.length - 1){
+                // if (this.state.current_card === this.card_container.children.length - 1){
+                if (this.state.current_card === this.card_container.children.length - 3){
                     setTimeout(() => {
                         this.card_container.style.transitionDuration = "1.0s";
-                        this.card_container.style.transform = `translate(-${450}px)`;
+                        this.card_container.style.transform = `translate(-${550}px)`;
                         this.setState( {current_card: 1} );
                     }, 502);
                 }
