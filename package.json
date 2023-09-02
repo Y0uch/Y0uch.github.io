@@ -1,10 +1,13 @@
 {
   "name": "portfolio",
   "private": true,
+  "homepage": "https://y0uch.github.io/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -23,6 +26,7 @@
     "react-dom": "^18.2.0",
     "react-photo-album": "^2.2.2",
     "react-router-dom": "^6.14.2",
+    "react-scripts": "^5.0.1",
     "styled-components": "^5.3.11"
   },
   "devDependencies": {
@@ -33,6 +37,7 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
+    "gh-pages": "^6.0.0",
     "vite": "^4.4.0"
   }
 }
