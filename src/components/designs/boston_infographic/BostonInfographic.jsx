@@ -3,18 +3,18 @@ import "./BostonInfographic.css";
 
 // Images
 // Main
-import boston_infographic_main from "../../../assets/img/Designs/boston_infographic/main/boston_dog_main.jpg";
+import boston_infographic_main from "/img/Designs/boston_infographic/main/boston_dog_main.jpg";
 
 // Additional Versions
-import av1 from "../../../assets/img/Designs/boston_infographic/additional_versions/boston_dog_av1.jpg";
+import av1 from "/img/Designs/boston_infographic/additional_versions/boston_dog_av1.jpg";
 
 // Initial Sketches
-import init_sketch1 from "../../../assets/img/Designs/boston_infographic/initial_sketches/boston_dog_initial1.jpg";
-import init_sketch2 from "../../../assets/img/Designs/boston_infographic/initial_sketches/boston_dog_initial2.jpg";
-import init_sketch3 from "../../../assets/img/Designs/boston_infographic/initial_sketches/boston_dog_initial3.jpg";
-import init_sketch4 from "../../../assets/img/Designs/boston_infographic/initial_sketches/boston_dog_initial4.jpg";
-import init_sketch5 from "../../../assets/img/Designs/boston_infographic/initial_sketches/boston_dog_initial5.jpg";
-import init_sketch6 from "../../../assets/img/Designs/boston_infographic/initial_sketches/boston_dog_initial6.jpg";
+import init_sketch1 from "/img/Designs/boston_infographic/initial_sketches/boston_dog_initial1.jpg";
+import init_sketch2 from "/img/Designs/boston_infographic/initial_sketches/boston_dog_initial2.jpg";
+import init_sketch3 from "/img/Designs/boston_infographic/initial_sketches/boston_dog_initial3.jpg";
+import init_sketch4 from "/img/Designs/boston_infographic/initial_sketches/boston_dog_initial4.jpg";
+import init_sketch5 from "/img/Designs/boston_infographic/initial_sketches/boston_dog_initial5.jpg";
+import init_sketch6 from "/img/Designs/boston_infographic/initial_sketches/boston_dog_initial6.jpg";
 
 export default function BostonInfographic() {
   return (

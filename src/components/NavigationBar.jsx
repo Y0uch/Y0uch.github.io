@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavigationBar.css";
-// import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function NavigationBar() {
   return (
@@ -31,35 +31,25 @@ export default function NavigationBar() {
         <nav class="navbar navbar-expand-lg navbar-light">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="/">Designs</a>
+              <Link to={"/"} className="nav-link">Designs</Link>
+              
+              {/* <a class="nav-link active" href="/">Designs</a> */}
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/illustrations">Illustrations</a>
+              {/* <a class="nav-link" href="/illustrations">Illustrations</a> */}
+              <NavLink to={"/illustrations"} className="nav-link">Illustrations</NavLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about-me">About Me</a>
+              {/* <a class="nav-link" href="/about-me">About Me</a> */}
+              <NavLink to={"/about-me"} className="nav-link">About Me</NavLink>
             </li>
           </ul>
         </nav>
       </div>
 
-        
     </div>
 
 
-      {/* <nav class="navbar navbar-expand-lg navbar-light">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="/">Designs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Illustrations</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-      </nav> */}
     </>
   );
 }

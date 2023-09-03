@@ -3,8 +3,8 @@ import "./TypeTheater.css";
 
 // Images
 // Main
-import type_theater_main1 from "../../../assets/img/Designs/type_theater/main/type_theater_main1.jpg";
-import type_theater_main2 from "../../../assets/img/Designs/type_theater/main/type_theater_main2.jpg";
+import type_theater_main1 from "/img/Designs/type_theater/main/type_theater_main1.jpg";
+import type_theater_main2 from "/img/Designs/type_theater/main/type_theater_main2.jpg";
 
 export default function TypeTheater() {
   return (

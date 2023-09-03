@@ -3,19 +3,19 @@ import "./ModernistPoster.css";
 
 // Images
 // Main
-import modernist_poster_main from "../../../assets/img/Designs/modernist_poster/main/modernist_poster_main1.jpg";
+import modernist_poster_main from "/img/Designs/modernist_poster/main/modernist_poster_main1.jpg";
 
 // Additional Versions
-import av1 from "../../../assets/img/Designs/modernist_poster/additional_versions/modernist_poster_av1.jpg";
-import av2 from "../../../assets/img/Designs/modernist_poster/additional_versions/modernist_poster_av2.jpg";
+import av1 from "/img/Designs/modernist_poster/additional_versions/modernist_poster_av1.jpg";
+import av2 from "/img/Designs/modernist_poster/additional_versions/modernist_poster_av2.jpg";
 
 // Initial Sketches
-import init_sketch1 from "../../../assets/img/Designs/modernist_poster/initial_sketches/modernist_poster_initial1.jpg";
-import init_sketch2 from "../../../assets/img/Designs/modernist_poster/initial_sketches/modernist_poster_initial2.jpg";
-import init_sketch3 from "../../../assets/img/Designs/modernist_poster/initial_sketches/modernist_poster_initial3.jpg";
-import init_sketch4 from "../../../assets/img/Designs/modernist_poster/initial_sketches/modernist_poster_initial4.jpg";
-import init_sketch5 from "../../../assets/img/Designs/modernist_poster/initial_sketches/modernist_poster_initial5.jpg";
-import init_sketch6 from "../../../assets/img/Designs/modernist_poster/initial_sketches/modernist_poster_initial6.jpg";
+import init_sketch1 from "/img/Designs/modernist_poster/initial_sketches/modernist_poster_initial1.jpg";
+import init_sketch2 from "/img/Designs/modernist_poster/initial_sketches/modernist_poster_initial2.jpg";
+import init_sketch3 from "/img/Designs/modernist_poster/initial_sketches/modernist_poster_initial3.jpg";
+import init_sketch4 from "/img/Designs/modernist_poster/initial_sketches/modernist_poster_initial4.jpg";
+import init_sketch5 from "/img/Designs/modernist_poster/initial_sketches/modernist_poster_initial5.jpg";
+import init_sketch6 from "/img/Designs/modernist_poster/initial_sketches/modernist_poster_initial6.jpg";
 
 export default function ModernistPoster() {
   return (

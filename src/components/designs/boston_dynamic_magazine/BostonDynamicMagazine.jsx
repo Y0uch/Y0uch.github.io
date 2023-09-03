@@ -3,22 +3,22 @@ import "./BostonDynamicMagazine.css";
 
 // Images
 // Main
-import boston_dog_magazine_main1 from "../../../assets/img/Designs/boston_dynamic_magazine/main/boston_dog_magazine_main1.jpg";
-import boston_dog_magazine_main2 from "../../../assets/img/Designs/boston_dynamic_magazine/main/boston_dog_magazine_main2.jpg";
+import boston_dog_magazine_main1 from "/img/Designs/boston_dynamic_magazine/main/boston_dog_magazine_main1.jpg";
+import boston_dog_magazine_main2 from "/img/Designs/boston_dynamic_magazine/main/boston_dog_magazine_main2.jpg";
 
 // Additional Versions
-import fp1 from "../../../assets/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp1.jpg"
-import fp2 from "../../../assets/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp2.jpg"
-import fp3 from "../../../assets/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp3.jpg"
-import fp4 from "../../../assets/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp4.jpg"
-import fp5 from "../../../assets/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp5.jpg"
-import fp6 from "../../../assets/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp6.jpg"
-import fp7 from "../../../assets/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp7.jpg"
-import fp8 from "../../../assets/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp8.jpg"
+import fp1 from "/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp1.jpg"
+import fp2 from "/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp2.jpg"
+import fp3 from "/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp3.jpg"
+import fp4 from "/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp4.jpg"
+import fp5 from "/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp5.jpg"
+import fp6 from "/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp6.jpg"
+import fp7 from "/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp7.jpg"
+import fp8 from "/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp8.jpg"
 
 // Initial Sketches
-import init_sketch1 from "../../../assets/img/Designs/boston_dynamic_magazine/initial_sketches/boston_dog_magazine_initial1.jpg";
-import init_sketch3 from "../../../assets/img/Designs/boston_dynamic_magazine/initial_sketches/boston_dog_magazine_initial3.jpg";
+import init_sketch1 from "/img/Designs/boston_dynamic_magazine/initial_sketches/boston_dog_magazine_initial1.jpg";
+import init_sketch3 from "/img/Designs/boston_dynamic_magazine/initial_sketches/boston_dog_magazine_initial3.jpg";
 
 export default function BostonDogMagazine() {
   return (

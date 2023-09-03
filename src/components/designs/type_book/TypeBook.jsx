@@ -3,25 +3,25 @@ import "./TypeBook.css";
 
 // Images
 // Main
-import type_book_main1 from "../../../assets/img/Designs/typebook/main/typebook_main1.jpg";
-import type_book_main2 from "../../../assets/img/Designs/typebook/main/typebook_main2.jpg";
+import type_book_main1 from "/img/Designs/typebook/main/typebook_main1.jpg";
+import type_book_main2 from "/img/Designs/typebook/main/typebook_main2.jpg";
 
-import fp1 from "../../../assets/img/Designs/typebook/following_pages/typebook_fp1.jpg";
-import fp2 from "../../../assets/img/Designs/typebook/following_pages/typebook_fp2.jpg";
-import fp3 from "../../../assets/img/Designs/typebook/following_pages/typebook_fp3.jpg";
-import fp4 from "../../../assets/img/Designs/typebook/following_pages/typebook_fp4.jpg";
-import fp5 from "../../../assets/img/Designs/typebook/following_pages/typebook_fp5.jpg";
-import fp6 from "../../../assets/img/Designs/typebook/following_pages/typebook_fp6.jpg";
-import fp7 from "../../../assets/img/Designs/typebook/following_pages/typebook_fp7.jpg";
-import fp8 from "../../../assets/img/Designs/typebook/following_pages/typebook_fp8.jpg";
-import fp9 from "../../../assets/img/Designs/typebook/following_pages/typebook_fp9.jpg";
-import fp10 from "../../../assets/img/Designs/typebook/following_pages/typebook_fp10.jpg";
-import fp11 from "../../../assets/img/Designs/typebook/following_pages/typebook_fp11.jpg";
-import fp12 from "../../../assets/img/Designs/typebook/following_pages/typebook_fp12.jpg";
-import fp13 from "../../../assets/img/Designs/typebook/following_pages/typebook_fp13.jpg";
-import fp14 from "../../../assets/img/Designs/typebook/following_pages/typebook_fp14.jpg";
-import fp15 from "../../../assets/img/Designs/typebook/following_pages/typebook_fp15.jpg";
-import fp16 from "../../../assets/img/Designs/typebook/following_pages/typebook_fp16.jpg";
+import fp1 from "/img/Designs/typebook/following_pages/typebook_fp1.jpg";
+import fp2 from "/img/Designs/typebook/following_pages/typebook_fp2.jpg";
+import fp3 from "/img/Designs/typebook/following_pages/typebook_fp3.jpg";
+import fp4 from "/img/Designs/typebook/following_pages/typebook_fp4.jpg";
+import fp5 from "/img/Designs/typebook/following_pages/typebook_fp5.jpg";
+import fp6 from "/img/Designs/typebook/following_pages/typebook_fp6.jpg";
+import fp7 from "/img/Designs/typebook/following_pages/typebook_fp7.jpg";
+import fp8 from "/img/Designs/typebook/following_pages/typebook_fp8.jpg";
+import fp9 from "/img/Designs/typebook/following_pages/typebook_fp9.jpg";
+import fp10 from "/img/Designs/typebook/following_pages/typebook_fp10.jpg";
+import fp11 from "/img/Designs/typebook/following_pages/typebook_fp11.jpg";
+import fp12 from "/img/Designs/typebook/following_pages/typebook_fp12.jpg";
+import fp13 from "/img/Designs/typebook/following_pages/typebook_fp13.jpg";
+import fp14 from "/img/Designs/typebook/following_pages/typebook_fp14.jpg";
+import fp15 from "/img/Designs/typebook/following_pages/typebook_fp15.jpg";
+import fp16 from "/img/Designs/typebook/following_pages/typebook_fp16.jpg";
 
 export default function TypeBook() {
   return (
