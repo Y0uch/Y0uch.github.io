@@ -5,14 +5,10 @@ import { Link, NavLink } from "react-router-dom";
 export default function NavigationBar() {
   return (
     <>
+      {/* Bootstrap 5 scripts and stylesheets */}
       <script
-        src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
         crossorigin="anonymous"
       ></script>
       <link
@@ -22,34 +18,26 @@ export default function NavigationBar() {
         crossorigin="anonymous"
       ></link>
 
-    <div className="navbar-name-container">
-      <a class="navbar-brand" href="/"><h5>Youngjun Cho</h5></a>  
-    </div>    
-
-    <div class="container">
-      <div className="navbarItems">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <Link to={"/"} className="nav-link">Designs</Link>
-              
-              {/* <a class="nav-link active" href="/">Designs</a> */}
-            </li>
-            <li class="nav-item">
-              {/* <a class="nav-link" href="/illustrations">Illustrations</a> */}
-              <NavLink to={"/illustrations"} className="nav-link">Illustrations</NavLink>
-            </li>
-            <li class="nav-item">
-              {/* <a class="nav-link" href="/about-me">About Me</a> */}
-              <NavLink to={"/about-me"} className="nav-link">About Me</NavLink>
-            </li>
-          </ul>
-        </nav>
+      <div className="navbar-whole-container">
+        <div className="navbar-name-container">
+          <a href="/"><h5>Youngjun Cho</h5></a>
+        </div>
+        <div className="navbarItems">
+          <nav className="navbar navbar-expand-lg navbar-light">
+            <ul className="navbar-nav mx-auto">
+              <li className="nav-item">
+                <Link to={"/"} className="nav-link">Designs</Link>
+              </li>
+              <li className="nav-item">
+                <NavLink to={"/illustrations"} className="nav-link">Illustrations</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink to={"/about-me"} className="nav-link">About Me</NavLink>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-
-    </div>
-
-
     </>
   );
 }

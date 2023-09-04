@@ -1,38 +1,46 @@
-/* *{
-    margin-bottom: 2%;
+/* Remove the comments around the universal reset, if needed */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 } */
-.container {
+
+.navbar-whole-container {
     display: flex;
-    align-items: center;
-    padding-bottom: 2%;
+    flex-direction: row;
+    align-items: center; /* Center the content vertically */
+    padding-top: 3%;
+    /* width: 100%; */
 }
 
 .navbar-name-container {
     display: flex;
-    align-items: left;
-    width: 100%;
-    margin-left: 5%;
-    margin-top: 3%;
+    padding-left: 5%;
+    width: 20%;
+    padding-bottom: 2%;
+}
 
+.navbar-name-container a {
+    text-decoration: none;
+    color: #4C4E52;
+    font-size: 16px;
 }
 
 ul {
     display: flex;
     align-items: center;
-    /* justify-content: flex-end; */
     list-style: none;
     margin: 0;
     padding: 0;
 }
   
 li {
-    margin: 0 15px;
-    /* margin-top: 40px; */
+    margin: 0 20px;
 }
 
 nav a {
     text-decoration: none;
-    color:  #4C4E52;
+    color: black;
     font-size: 16px;
 }
 
@@ -41,5 +49,13 @@ nav a {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-right: 2%;
+    padding-right: 15%;
+    padding-bottom: 2%;
+}
+
+.nav-item-name {
+    width: 100%;
+    outline: plum; /* Note: You may want to remove this outline */
+    outline-style: solid;
+    /* align-items: start; */ /* This line can be removed */
 }

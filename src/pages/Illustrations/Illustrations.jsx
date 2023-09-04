@@ -14,6 +14,7 @@ import Masonry from '@mui/lab/Masonry';
 import { styled } from '@mui/material/styles';
 
 
+
 export default function Illustrations() {
   const [isRendered, setIsRendered] = useState(false);
   const [photos, setPhotos] = useState([]);
@@ -59,20 +60,22 @@ export default function Illustrations() {
       <Masonry columns={3} spacing={2}>
         {photos.map((photoObj, index) => (
           <div key={index}>
-            <img
-              src={`${photoObj.src}?w=162&auto=format`}
-              srcSet={`${photoObj.src}?w=162&auto=format&dpr=2 2x`}
-              alt={photoObj.src}
-              loading="lazy"
-              style={{
-                borderBottomLeftRadius: 4,
-                borderBottomRightRadius: 4,
-                display: 'block',
-                width: '100%',
-                // maxHeight: photoObj.height,
-                // maxWidth: photoObj.width,
-              }}
-            />
+            <a href={photoObj.src}>
+              <img
+                src={`${photoObj.src}?w=162&auto=format`}
+                srcSet={`${photoObj.src}?w=162&auto=format&dpr=2 2x`}
+                alt={photoObj.src}
+                loading="lazy"
+                style={{
+                  borderBottomLeftRadius: 4,
+                  borderBottomRightRadius: 4,
+                  display: 'block',
+                  width: '100%',
+                  // maxHeight: photoObj.height,
+                  // maxWidth: photoObj.width,
+                }}
+              />
+            </a>
           </div>
         ))}
       </Masonry>
