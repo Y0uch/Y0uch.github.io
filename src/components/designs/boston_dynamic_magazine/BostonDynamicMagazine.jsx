@@ -5,6 +5,7 @@ import "./BostonDynamicMagazine.css";
 // Main
 import boston_dog_magazine_main1 from "/img/Designs/boston_dynamic_magazine/main/boston_dog_magazine_main1.jpg";
 import boston_dog_magazine_main2 from "/img/Designs/boston_dynamic_magazine/main/boston_dog_magazine_main2.jpg";
+import boston_dog_magazine_main from "/img/Designs/boston_dynamic_magazine/main/connected_bdm_v2.jpg"
 
 // Additional Versions
 import fp1 from "/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp1.jpg"
@@ -25,17 +26,17 @@ export default function BostonDogMagazine() {
     <>
       <div className="bdm-main-container">
         <div className="mainImageContainer">
-          <img src={boston_dog_magazine_main1} alt="Boston Dog Infographic"></img>
-          <img src={boston_dog_magazine_main2} alt="Boston Dog Infographic 2"></img>
+          <img src={boston_dog_magazine_main} alt="Boston Dog Infographic Main"></img>
           
 
-          <div className="bdm-desc-container">
+        </div>
+
+        <div className="bdm-desc-container">
             <h4><strong>Boston Dynamic Magazine</strong></h4>
             <p>
             Originally titled "Silk and Feathers," this project evolved into an immersive magazine experience centered around Boston Dynamics' robotic dog, Spot. The magazine maintains clarity and focus while providing comprehensive information by utilizing a grid-based layout and repurposing images from the infographic. The seamless connection between the two pieces creates a cohesive narrative, engaging readers with captivating visuals and balanced composition. By striking a balance between informative content and accessibility, the magazine caters to a wide range of audiences. Its fusion of imagery and storytelling showcases Spot's capabilities, applications, and design intricacies. The reappropriated project offers an engaging experience that combines the best of infographics and magazine formats, inviting readers into the transformative world of Spot.
             </p>
           </div>
-        </div>
 
 
 

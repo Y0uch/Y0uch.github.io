@@ -1,5 +1,6 @@
 .bdm-main-container {
-    padding-left: 5%;
+    padding-left: 6.9%;
+    padding-right: 6.9%;
 }
 
 .mainImageContainer {
@@ -9,19 +10,19 @@
 }
 
 .mainImageContainer img{
-    width: 30%;
+    width: 100%;
     /* padding-right: 2%; */
 }
 
 .bdm-desc-container {
-    width: 40%;
+    width: 75%;
     padding-bottom: 10%;
     padding-top: 2.5%;
-    padding-left: 2%;
+    /* padding-left: 2%; */
 }
 
 .bdm-following-pages-container img{
-    width: 30%;
+    width: 33.3%;
     padding-right: 2%;
     padding-bottom: 2%;
 }
@@ -35,7 +36,7 @@
 }
 
 .bdm-initial-sketches img{
-    width: 30%;
+    width: 33.3%;
     padding-right: 2%;
     padding-bottom: 2%;
 }

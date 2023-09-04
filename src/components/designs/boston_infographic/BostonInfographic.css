@@ -1,6 +1,6 @@
 .boston-infographic-main-container {
-    padding-left: 5%;
-    padding-right: 4%;
+    padding-left: 6.9%;
+    padding-right: 6.9%;
 }
 
 .boston-infographic-main-image-container {
@@ -20,7 +20,7 @@
 }
 
 .boston-infographic-desc-container {
-    /* width: 100%; */
+    width: 85%;
     /* margin: 4%; */
     padding-top: 2%;
 }

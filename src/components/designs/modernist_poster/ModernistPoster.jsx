@@ -48,8 +48,8 @@ export default function ModernistPoster() {
 
           <div className="modernist-poster-additional-versions-container">
               <h4><strong>Additional Versions</strong></h4>
-              <img src={av1} style={{width: "37%", paddingRight: "2%"}} alt="Additional Version 1"></img>
-              <img src={av2} style={{width: "37%", paddingRight: "2%"}} alt="Additional Version 1"></img>
+              <img src={av1} style={{width: "46.3%", paddingRight: "2%"}} alt="Additional Version 1"></img>
+              <img src={av2} style={{width: "46.3%", paddingRight: "2%"}} alt="Additional Version 1"></img>
 
           </div>
         </div>

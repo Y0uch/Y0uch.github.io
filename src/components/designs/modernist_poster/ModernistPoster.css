@@ -1,5 +1,5 @@
 .modernist-poster-main-container {
-    padding-left: 5%;
+    padding-left: 6.9%;
 }
 
 .modernist-poster-flex-container {
@@ -9,12 +9,12 @@
 
 .modernist-poster-flex-container img {
     /* Add any styles you want for the image here */
-    width: 35%; /* For example, set a specific width */
+    width: 51%; /* For example, set a specific width */
     margin-right: 20px; /* Add some spacing between the image and the paragraph */
 }
 
 .modernist-poster-desc-container {
-    width: 40%;
+    width: 34%;
     padding-left: 3%;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .modernist-poster-initial-sketches img{
-    width: 25%;
+    width: 31.6%;
     padding-top: 1%;
     padding-right: 2%;
     padding-bottom: 1%;

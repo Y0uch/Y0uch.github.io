@@ -23,7 +23,7 @@ import init_sketch6 from "/img/Designs/don_infographic/initial_sketches/don_info
 
           <div className="desc-container">
             <h4><strong>Don Infographic</strong></h4>
-            <p>
+            <p style={{width: "77%"}}>
             This Infographic poster explores the Chornobyl radiation incident in 1986, focusing on the spread of radiation across Europe during different periods. The sign employs a color palette ranging from dark red to bright orange to symbolize the stages of radiation. It follows a narrative structure, reflecting the rise, peak, and fade of the radiation, akin to the rise and fall of an empire. The design incorporates clear information, visual hierarchy, and engaging imagery to guide the viewer's attention. Through its concise presentation, the poster provides a thought-provoking reflection on the historical impact of the Chornobyl incident.
             </p>
           </div>

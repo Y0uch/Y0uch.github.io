@@ -1,12 +1,12 @@
 .type-theater-container {
-    padding-left: 4.5%;
+    padding-left: 5.9%;
     display: flex;
 }
 
 .type-theater-main-image-container {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 57.5%;
 }
 
 .type-theater-flex-container {
@@ -17,6 +17,6 @@
 .type-theater-description-container {
     align-items: center;
     padding-left: 2%;
-    width: 40%;
+    width: 30%;
     flex-direction: column;
 }

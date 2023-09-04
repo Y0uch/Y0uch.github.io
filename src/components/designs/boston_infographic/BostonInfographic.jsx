@@ -36,7 +36,7 @@ export default function BostonInfographic() {
 
         <div className="boston-infographic-additional-versions-container">
           <h4><strong>Additional Versions</strong></h4>
-          <img src={av1} style={{width: "75%"}}alt="Additional Version 1"></img>
+          <img src={av1} style={{width: "100%"}}alt="Additional Version 1"></img>
         </div>
 
 

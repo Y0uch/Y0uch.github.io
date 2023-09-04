@@ -1,5 +1,6 @@
 .type-book-main-container {
-    padding-left: 5%;
+    padding-left: 6.9%;
+    padding-right: 6.9%;
 }
 
 .type-book-main-image-container {
@@ -21,7 +22,7 @@
 
 .type-book-desc-container {
     /* width: 100%; */
-    width: 45%;
+    width: 75%;
     padding-top: 2%;
 }
 
@@ -30,9 +31,9 @@
 }
 
 .type-book-following-pages-container img {
-    width: 45%;
+    width: 50%;
     padding-right: 0%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     /* margin-right: 20px;  */
 }
 
