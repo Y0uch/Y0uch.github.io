@@ -3,10 +3,10 @@ import "./BostonInfographic.css";
 
 // Images
 // Main
-import boston_infographic_main from "/img/Designs/boston_infographic/main/boston_dog_main.jpg";
+import boston_infographic_main from "/img/Designs/boston_infographic/main2/boston_dog_main.jpg";
 
 // Additional Versions
-import av1 from "/img/Designs/boston_infographic/additional_versions/boston_dog_av1.jpg";
+import av1 from "/img/Designs/boston_infographic/additional_versions/boston_dog_av2.jpg";
 
 // Initial Sketches
 import init_sketch1 from "/img/Designs/boston_infographic/initial_sketches/boston_dog_initial1.jpg";

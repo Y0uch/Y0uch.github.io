@@ -3,7 +3,7 @@ import "./DonJazzPoster.css";
 
 // Images
 // Main
-import don_jazz_poster_main1 from "/img/Designs/don_jazz_poster/main/donjazz_main1.jpg";
+import don_jazz_poster_main1 from "/img/Designs/don_jazz_poster/main/donjazz_main.jpg";
 
 // Initial Sketches
 import init_sketch1 from "/img/Designs/don_jazz_poster/initial_sketches/donjazz_initial1.jpg";

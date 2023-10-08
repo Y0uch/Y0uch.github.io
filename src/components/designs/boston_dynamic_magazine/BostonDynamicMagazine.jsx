@@ -3,19 +3,14 @@ import "./BostonDynamicMagazine.css";
 
 // Images
 // Main
-import boston_dog_magazine_main1 from "/img/Designs/boston_dynamic_magazine/main/boston_dog_magazine_main1.jpg";
-import boston_dog_magazine_main2 from "/img/Designs/boston_dynamic_magazine/main/boston_dog_magazine_main2.jpg";
-import boston_dog_magazine_main from "/img/Designs/boston_dynamic_magazine/main/connected_bdm_v2.jpg"
+import boston_dog_magazine_main from "/img/Designs/boston_dynamic_magazine/main2/boston_dog_magazine_main1.jpg"
 
 // Additional Versions
-import fp1 from "/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp1.jpg"
-import fp2 from "/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp2.jpg"
-import fp3 from "/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp3.jpg"
-import fp4 from "/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp4.jpg"
-import fp5 from "/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp5.jpg"
-import fp6 from "/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp6.jpg"
-import fp7 from "/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp7.jpg"
-import fp8 from "/img/Designs/boston_dynamic_magazine/following_pages/boston_dog_magazine_fp8.jpg"
+import fp1 from "/img/Designs/boston_dynamic_magazine/following_pages2/initialv4_spread2.jpg"
+import fp2 from "/img/Designs/boston_dynamic_magazine/following_pages2/initialv4_spread3.jpg"
+import fp3 from "/img/Designs/boston_dynamic_magazine/following_pages2/initialv4_spread4.jpg"
+import fp4 from "/img/Designs/boston_dynamic_magazine/following_pages2/initialv4_spread5.jpg"
+
 
 // Initial Sketches
 import init_sketch1 from "/img/Designs/boston_dynamic_magazine/initial_sketches/boston_dog_magazine_initial1.jpg";
@@ -46,10 +41,6 @@ export default function BostonDogMagazine() {
             <img src={fp2} alt="Following Page 2"></img>
             <img src={fp3} alt="Following Page 3"></img>
             <img src={fp4} alt="Following Page 4"></img>
-            <img src={fp5} alt="Following Page 5"></img>
-            <img src={fp6} alt="Following Page 6"></img>
-            <img src={fp7} alt="Following Page 7"></img>
-            <img src={fp8} alt="Following Page 8"></img>
         </div>
 
 
