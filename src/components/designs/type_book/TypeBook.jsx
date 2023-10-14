@@ -3,25 +3,17 @@ import "./TypeBook.css";
 
 // Images
 // Main
-import type_book_main1 from "/img/Designs/typebook/main/typebook_main1.jpg";
-import type_book_main2 from "/img/Designs/typebook/main/typebook_main2.jpg";
+import type_book_main1 from "/img/Designs/typebook/main2/typebook_main1.png";
 
-import fp1 from "/img/Designs/typebook/following_pages/typebook_fp1.jpg";
-import fp2 from "/img/Designs/typebook/following_pages/typebook_fp2.jpg";
-import fp3 from "/img/Designs/typebook/following_pages/typebook_fp3.jpg";
-import fp4 from "/img/Designs/typebook/following_pages/typebook_fp4.jpg";
-import fp5 from "/img/Designs/typebook/following_pages/typebook_fp5.jpg";
-import fp6 from "/img/Designs/typebook/following_pages/typebook_fp6.jpg";
-import fp7 from "/img/Designs/typebook/following_pages/typebook_fp7.jpg";
-import fp8 from "/img/Designs/typebook/following_pages/typebook_fp8.jpg";
-import fp9 from "/img/Designs/typebook/following_pages/typebook_fp9.jpg";
-import fp10 from "/img/Designs/typebook/following_pages/typebook_fp10.jpg";
-import fp11 from "/img/Designs/typebook/following_pages/typebook_fp11.jpg";
-import fp12 from "/img/Designs/typebook/following_pages/typebook_fp12.jpg";
-import fp13 from "/img/Designs/typebook/following_pages/typebook_fp13.jpg";
-import fp14 from "/img/Designs/typebook/following_pages/typebook_fp14.jpg";
-import fp15 from "/img/Designs/typebook/following_pages/typebook_fp15.jpg";
-import fp16 from "/img/Designs/typebook/following_pages/typebook_fp16.jpg";
+import fp1 from "/img/Designs/typebook/following_pages2/book_spread1.png";
+import fp2 from "/img/Designs/typebook/following_pages2/book_spread2.png";
+import fp3 from "/img/Designs/typebook/following_pages2/book_spread3.png";
+import fp4 from "/img/Designs/typebook/following_pages2/book_spread4.png";
+import fp5 from "/img/Designs/typebook/following_pages2/book_spread5.png";
+import fp6 from "/img/Designs/typebook/following_pages2/book_spread6.png";
+import fp7 from "/img/Designs/typebook/following_pages2/book_spread7.png";
+import fp8 from "/img/Designs/typebook/following_pages2/book_spread8.png";
+
 
 export default function TypeBook() {
   return (
@@ -29,7 +21,6 @@ export default function TypeBook() {
       <div className="type-book-main-container">
         <div className="type-book-main-image-container">
           <img src={type_book_main1} alt="Type book 1"></img>
-          <img src={type_book_main2} alt="Type book 2"></img>
         </div>
 
 
@@ -55,14 +46,6 @@ export default function TypeBook() {
               <img src={fp6} alt="Following Page 6"></img>
               <img src={fp7} alt="Following Page 7"></img>
               <img src={fp8} alt="Following Page 8"></img>
-              <img src={fp9} alt="Following Page 9"></img>
-              <img src={fp10} alt="Following Page 10"></img>
-              <img src={fp11} alt="Following Page 11"></img>
-              <img src={fp12} alt="Following Page 12"></img>
-              <img src={fp13} alt="Following Page 13"></img>
-              <img src={fp14} alt="Following Page 14"></img>
-              {/* <img src={fp15} alt="Following Page 15"></img>
-              <img src={fp16} alt="Following Page 16"></img> */}
           </div>
 
 

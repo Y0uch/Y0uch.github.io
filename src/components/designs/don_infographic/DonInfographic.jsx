@@ -3,7 +3,7 @@ import "./DonInfographic.css";
 
 // Images
 // Main
-import don_infographic_main1 from "/img/Designs/don_infographic/main/don_infographic_main1.jpg";
+import don_infographic_main1 from "/img/Designs/don_infographic/main2/don_infographic_main1.jpg";
 
 // Initial Sketches
 import init_sketch1 from "/img/Designs/don_infographic/initial_sketches/don_infographic_initial1.jpg";

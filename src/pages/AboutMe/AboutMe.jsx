@@ -58,7 +58,9 @@ export default function AboutMe() {
                             <FontAwesomeIcon icon={faLinkedin} style={{color: "0072b1", height: "75px", padding: "5px"}} />
                         </a>
 
-                        <FontAwesomeIcon icon={faEnvelope} style={{height: "75px", padding: "5px"}}/>
+                        <a href="mailto:ycho38@artic.edu">
+                            <FontAwesomeIcon icon={faEnvelope} style={{height: "75px", padding: "5px"}}/>
+                        </a>
                     </div>
                 </div>
             </div>

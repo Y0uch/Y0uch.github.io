@@ -3,13 +3,13 @@ import "./BostonDynamicMagazine.css";
 
 // Images
 // Main
-import boston_dog_magazine_main from "/img/Designs/boston_dynamic_magazine/main2/boston_dog_magazine_main1.jpg"
+import boston_dog_magazine_main from "/img/Designs/boston_dynamic_magazine/main2/boston_dog_magazine_main1.png"
 
 // Additional Versions
-import fp1 from "/img/Designs/boston_dynamic_magazine/following_pages2/initialv4_spread2.jpg"
-import fp2 from "/img/Designs/boston_dynamic_magazine/following_pages2/initialv4_spread3.jpg"
-import fp3 from "/img/Designs/boston_dynamic_magazine/following_pages2/initialv4_spread4.jpg"
-import fp4 from "/img/Designs/boston_dynamic_magazine/following_pages2/initialv4_spread5.jpg"
+import fp1 from "/img/Designs/boston_dynamic_magazine/following_pages2/initialv4_spread2.png"
+import fp2 from "/img/Designs/boston_dynamic_magazine/following_pages2/initialv4_spread3.png"
+import fp3 from "/img/Designs/boston_dynamic_magazine/following_pages2/initialv4_spread4.png"
+import fp4 from "/img/Designs/boston_dynamic_magazine/following_pages2/initialv4_spread5.png"
 
 
 // Initial Sketches

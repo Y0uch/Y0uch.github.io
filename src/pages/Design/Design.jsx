@@ -59,11 +59,11 @@ export default function Design() {
       { src: "/img/Designs/type_theater/main2/type_theater_main1.jpg", width: 567, height: 1006, href: "/type-theater" },
       // { src: "/img/Designs/boston_dynamic_magazine/main/boston_dog_magazine_main1.jpg", width: 587, height: 883, href: "/boston-dog-magazine"},
       // { src: "/img/Designs/boston_dynamic_magazine/main/boston_dog_magazine_main2.jpg", width: 587, height: 883, href: "/boston-dog-magazine"},
-            { src: "/img/Designs/boston_dynamic_magazine/main2/boston_dog_magazine_main1.jpg", width: 1174, height: 883, href: "/boston-dog-magazine"},
+            { src: "/img/Designs/boston_dynamic_magazine/main2/boston_dog_magazine_main1.png", width: 1174, height: 883, href: "/boston-dog-magazine"},
       { src: "/img/Designs/don_jazz_poster/main/donjazz_main.jpg", width: 568, height: 945, href: "/don-jazz-poster" },
       // { src: "/img/Designs/typebook/main/typebook_main1.jpg", width: 588, height: 484, href: "/type-book" },
       // { src: "/img/Designs/typebook/main/typebook_main2.jpg", width: 588, height: 484, href: "/type-book" },
-            { src: "/img/Designs/typebook/main2/typebook_main1.jpg", width: 1176, height: 484, href: "/type-book" },
+            { src: "/img/Designs/typebook/main2/typebook_main1.png", width: 1176, height: 484, href: "/type-book" },
       { src: "/img/Designs/don_infographic/main2/don_infographic_main1.jpg", width: 1175, height: 781, href: "/don-infographic" },
     ];
     setPhotos(photos);

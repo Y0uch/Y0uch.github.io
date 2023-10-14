@@ -3,7 +3,7 @@ import "./ModernistPoster.css";
 
 // Images
 // Main
-import modernist_poster_main from "/img/Designs/modernist_poster/main2/modernist_poster_main1.jpg";
+import modernist_poster_main from "/img/Designs/modernist_poster/main2/modernist_poster_main1.png";
 
 // Additional Versions
 import av1 from "/img/Designs/modernist_poster/additional_versions2/modernist_poster_av1.jpg";
