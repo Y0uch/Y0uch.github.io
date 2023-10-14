@@ -22,17 +22,17 @@ export default function NavigationBar() {
         <div className="navbar-name-container">
           <a href="/"><h5 style={{color: "#ffffff"}}>Youngjun Cho</h5></a>
         </div>
-        <div className="navbarItems">
-          <nav className="navbar navbar-expand-lg navbar-light">
-            <ul className="navbar-nav mx-auto">
+          <div className="navbarItems">
+            <nav className="navbar navbar-expand-lg navbar-light">
+              <ul className="navbar-nav mx-auto">
+                <li className="nav-item">
+                  <NavLink to={"/"} className="nav-link" activeClassName="active-link">Designs</NavLink>
+                </li>
               <li className="nav-item">
-                <Link to={"/"} className="nav-link" style={{color: "#ffffff"}} >Designs</Link>
-              </li>
-              <li className="nav-item">
-                <NavLink to={"/illustrations"} style={{color: "#ffffff"}} className="nav-link">Illustrations</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink to={"/about-me"} style={{color: "#ffffff"}} className="nav-link">About Me</NavLink>
+                  <NavLink to={"/illustrations"} className="nav-link" activeClassName="active-link">Illustrations</NavLink>
+                </li>
+                <li className="nav-item">
+                <NavLink to={"/about-me"} className="nav-link" activeClassName="active-link">About Me</NavLink>
               </li>
             </ul>
           </nav>
