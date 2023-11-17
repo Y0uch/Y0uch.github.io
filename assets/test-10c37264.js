@@ -1,0 +1,1 @@
+import{j as e,R as t}from"./jsx-runtime-4f890a6f.js";import{R as r}from"./index-18a90fe0.js";r.render(e.jsx(t.StrictMode,{children:e.jsx("h1",{children:"Test page"})}),document.getElementById("root"));
